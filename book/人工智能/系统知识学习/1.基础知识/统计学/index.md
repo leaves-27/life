@@ -1,4 +1,6 @@
 # 统计学
+统计学是收集、处理、分析、解释数据并从中得出结论的一门科学。
+
 1.数据收集:
 2.数据处理:
 3.数据分析:
@@ -6,6 +8,6 @@
 
 
 详情参见:
-  https://blog.csdn.net/boon_228/article/details/52958269
   https://blog.csdn.net/xlinsist/article/details/51493717
-  http://baijiahao.baidu.com/s?id=1570139261175305&wfr=spider&for=pc
+  https://blog.csdn.net/xlinsist/article/details/52193402
+ 

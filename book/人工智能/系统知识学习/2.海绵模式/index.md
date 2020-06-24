@@ -1,15 +1,9 @@
 # 海绵模式的定义
-  尽可能吸收足够多的机器学习理论知识。
-
-# 学习基础理论的理由
-1.规划和数据采集
-2.数据假设和预处理
-3.解释模型结果
-4.改进和调整模型
-5.驱动商业价值
+  尽可能吸收足够多的机器学习理论知识。包括：
+  1.机器学习的流程工作流程:
+  2.每个流程的意义:
 
 # 视频
-
 任务：完成至少一门课程 
 
 课程：
@@ -19,7 +13,6 @@
     课程主页：https://www.youtube.com/watch?v=qeHZOdmJvFU&list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW&index=1
 
 # 机器学习参考资料
-
 任务：看这些 PDF 作为教科书
 
 (1)An Introduction to Statistical Learning：介绍了统计学习的基本要素（适合所有机器学习的学习者）
