@@ -9,19 +9,34 @@
 
 # 交易日志
     用于对每周完成的交易进行记录、汇总，便于发现自己交易存在的问题，易于及时着手改善。
+
 # issue:
-1.某只债券评级的查询，例：G三峡EB1：
-2.某只基金中可转债占比的查询:         
+  一、日常学习：
+    (一)基金保险的学习：
+    (二)股票的学习:
+    (三)公司的创建创办学习:
 
-3.股票平均下跌穿透的计算:   
-  (1)数据来源:      
-    1）东方财富： http://quote.eastmoney.com/center/gridlist.html#hs_a_board     
-  (2)指标计算代码库:      
-    1）https://github.com/xiejun-net/yl-technical-indicator     
-    2）https://github.com/kimboqi/stock-indicators              
-4.简历的完善:             
+  二、日常工作：
+               
+    
+    (一)基金相关：
+      1.某只债券评级的查询，例：G三峡EB1：
+      2.某只基金中可转债占比的查询:  
 
-5.基金保险的学习：
+    (二)股票相关
+      1.股票平均下跌穿透的计算:   
+        (1)数据来源:      
+          1）东方财富： http://quote.eastmoney.com/center/gridlist.html#hs_a_board     
+        (2)指标计算代码库:      
+          1）https://github.com/xiejun-net/yl-technical-indicator     
+          2）https://github.com/kimboqi/stock-indicators              
+      2.股票交易计划评价打分系统:
+      3.股票交易日志及其交易情况评价打分系统:
+        (1)交易日志:
+        (2)交易情况评价打分:
+    (三)其他：
+      1.简历的完善:   
+      2.跑步健身:    
 
 
 
