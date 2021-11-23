@@ -7,7 +7,7 @@
 # 目标：
     每年可以在健康有保障的情况下持续赚10000块钱，持续5年。
 
-https://zhuanlan.zhihu.com/p/55070185
+    https://zhuanlan.zhihu.com/p/55070185
     https://www.zhihu.com/question/67051737/answer/768114889
 
 # 学习:
