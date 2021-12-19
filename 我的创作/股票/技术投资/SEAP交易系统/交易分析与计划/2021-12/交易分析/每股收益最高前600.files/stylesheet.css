@@ -1433,16 +1433,12 @@ td
 	border:.5pt solid windowtext;}
 .xl162
 	{mso-style-parent:style0;
-	mso-number-format:"0\.00";
-	text-align:right;
-	white-space:normal;
-	color:#152122;
-	font-family:Arial;
+	text-align:center;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl163
 	{mso-style-parent:style0;
-	text-align:left;
+	text-align:center;
 	white-space:normal;
 	mso-pattern:auto none;
 	background:#7DDCF0;
@@ -1452,8 +1448,8 @@ td
 	border:.5pt solid windowtext;}
 .xl164
 	{mso-style-parent:style0;
-	mso-number-format:"0";
-	text-align:right;
+	mso-number-format:"0\.00";
+	text-align:center;
 	white-space:normal;
 	color:#152122;
 	font-family:Arial;
@@ -1461,8 +1457,8 @@ td
 	border:.5pt solid windowtext;}
 .xl165
 	{mso-style-parent:style0;
-	mso-number-format:"\#\,\#\#0";
-	text-align:center;
+	mso-number-format:"0\.00";
+	text-align:right;
 	white-space:normal;
 	color:#152122;
 	font-family:Arial;
@@ -1477,10 +1473,38 @@ td
 	color:#FFFFFF;
 	font-family:方正书宋_GBK;
 	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl167
+	{mso-style-parent:style0;
+	mso-number-format:"0";
+	text-align:right;
+	white-space:normal;
+	color:#152122;
+	font-family:Arial;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl168
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";
+	text-align:center;
+	white-space:normal;
+	color:#152122;
+	font-family:Arial;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl169
+	{mso-style-parent:style0;
+	text-align:left;
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#7DDCF0;
+	color:#FFFFFF;
+	font-family:方正书宋_GBK;
+	mso-font-charset:134;
 	border-left:.5pt solid windowtext;
 	border-top:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;}
-.xl167
+.xl170
 	{mso-style-parent:style0;
 	mso-number-format:"0\.00";
 	text-align:right;
@@ -1491,7 +1515,7 @@ td
 	border-left:.5pt solid windowtext;
 	border-top:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;}
-.xl168
+.xl171
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-pattern:auto none;
