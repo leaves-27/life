@@ -7,15 +7,6 @@ col
 br
 	{mso-data-placement:same-cell;}
 .font1
-	{color:#FFFFFF;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"方正书宋_GBK";
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font2
 	{color:#152122;
 	font-size:12.0pt;
 	font-weight:400;
@@ -24,8 +15,17 @@ br
 	font-family:"Arial";
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
-.font3
+.font2
 	{color:#152122;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"方正书宋_GBK";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font3
+	{color:#FFFFFF;
 	font-size:12.0pt;
 	font-weight:400;
 	font-style:normal;
@@ -655,18 +655,21 @@ td
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
-	mso-pattern:auto none;
-	background:#7DDCF0;
-	color:#FFFFFF;
-	font-family:方正书宋_GBK;
+	color:#152122;
+	font-family:Arial;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl66
 	{mso-style-parent:style0;
 	text-align:center;
-	mso-font-charset:134;}
+	white-space:normal;
+	color:#152122;
+	font-family:方正书宋_GBK;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
 .xl67
 	{mso-style-parent:style0;
+	mso-number-format:"0\.00";
 	text-align:center;
 	white-space:normal;
 	color:#152122;
@@ -677,30 +680,27 @@ td
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
-	color:#152122;
-	font-family:方正书宋_GBK;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl69
 	{mso-style-parent:style0;
-	mso-number-format:"0\.00";
 	text-align:center;
-	white-space:normal;
-	color:#152122;
-	font-family:Arial;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl70
 	{mso-style-parent:style0;
 	text-align:center;
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#7DDCF0;
+	color:#FFFFFF;
+	font-family:方正书宋_GBK;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl71
 	{mso-style-parent:style0;
 	text-align:center;
-	white-space:normal;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
+	mso-font-charset:134;}
 .xl72
 	{mso-style-parent:style0;
 	text-align:center;
