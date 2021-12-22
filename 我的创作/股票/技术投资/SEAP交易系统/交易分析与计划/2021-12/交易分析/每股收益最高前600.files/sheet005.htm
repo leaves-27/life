@@ -17,12 +17,13 @@
     <x:WorksheetOptions>
      <x:DefaultRowHeight>352</x:DefaultRowHeight>
      <x:StandardWidth>2336</x:StandardWidth>
+     <x:Selected/>
      <x:Panes>
       <x:Pane>
        <x:Number>3</x:Number>
-       <x:ActiveCol>0</x:ActiveCol>
+       <x:ActiveCol>3</x:ActiveCol>
        <x:ActiveRow>0</x:ActiveRow>
-       <x:RangeSelection>A:F</x:RangeSelection>
+       <x:RangeSelection>D1:AH48</x:RangeSelection>
       </x:Pane>
      </x:Panes>
      <x:ProtectContents>False</x:ProtectContents>
@@ -43,363 +44,1680 @@
 </script>
  </head>
  <body link="blue" vlink="purple">
-  <table width="409.35" border="0" cellpadding="0" cellspacing="0" style='width:409.35pt;border-collapse:collapse;table-layout:fixed;'>
-   <col width="61.65" style='mso-width-source:userset;mso-width-alt:2630;'/>
-   <col width="51.70" style='mso-width-source:userset;mso-width-alt:2205;'/>
-   <col width="87.05" style='mso-width-source:userset;mso-width-alt:3714;'/>
-   <col width="72.30" style='mso-width-source:userset;mso-width-alt:3084;'/>
-   <col width="85.55" style='mso-width-source:userset;mso-width-alt:3650;'/>
-   <col width="51.10" style='mso-width-source:userset;mso-width-alt:2180;'/>
-   <tr height="29" style='height:29.00pt;'>
-    <td class="xl66" height="29" width="61.65" style='height:29.00pt;width:61.65pt;' x:str>股票代码</td>
-    <td class="xl66" width="51.70" style='width:51.70pt;' x:str>股票简称</td>
-    <td class="xl66" width="87.05" style='width:87.05pt;' x:str>基本每股收益<font class="font37">(</font><font class="font1">元</font><font class="font37">)2021.09.30</font></td>
-    <td class="xl72" width="72.30" style='width:72.30pt;' x:str>行业</td>
-    <td width="85.55" style='width:85.55pt;'></td>
-    <td width="51.10" style='width:51.10pt;'></td>
+  <table width="1922.40" border="0" cellpadding="0" cellspacing="0" style='width:1922.40pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="75.85" style='mso-width-source:userset;mso-width-alt:3236;'/>
+   <col width="72.45" style='mso-width-source:userset;mso-width-alt:3091;'/>
+   <col width="114.15" style='mso-width-source:userset;mso-width-alt:4870;'/>
+   <col width="101.60" style='mso-width-source:userset;mso-width-alt:4334;'/>
+   <col width="79.85" style='mso-width-source:userset;mso-width-alt:3406;'/>
+   <col width="47.70" style='mso-width-source:userset;mso-width-alt:2035;'/>
+   <col width="51.10" span="28" style='width:51.10pt;'/>
+   <tr height="17.60" style='height:17.60pt;'>
+    <td class="xl110" height="93.20" width="75.85" rowspan="3" style='height:93.20pt;width:75.85pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>股票代码</td>
+    <td class="xl110" width="72.45" rowspan="3" style='width:72.45pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>股票简称</td>
+    <td class="xl110" width="114.15" rowspan="3" style='width:114.15pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>基本每股收益(元)2021.09.30</td>
+    <td class="xl111" width="101.60" rowspan="3" style='width:101.60pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>行业</td>
+    <td class="xl126" width="587.45" colspan="11" style='width:587.45pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>趋势</td>
+    <td class="xl126" width="970.90" colspan="19" style='width:970.90pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>波动收缩幅度</td>
+   </tr>
+   <tr height="17.60" style='height:17.60pt;'>
+    <td class="xl127" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>200<font class="font5">日均线</font></td>
+    <td class="xl127" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>150<font class="font5">日均线</font></td>
+    <td class="xl127" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>50<font class="font5">日均线</font></td>
+    <td class="xl128" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>各均线斜率是否朝上</td>
+    <td class="xl131" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>当前股价</td>
+    <td class="xl132" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>52<font class="font5">周内最低点</font></td>
+    <td class="xl133" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>52<font class="font40">周内最高点</font></td>
+    <td class="xl134" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>最高点前8周收盘价</td>
+    <td class="xl135" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>当前股价相对于最低点百分比<font class="font5"><br/></font><font class="font5">(至少高出25%)</font></td>
+    <td class="xl135" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>当前股价相对于最高点百分比<font class="font5"><br/></font><font class="font5">(25%内最好)</font></td>
+    <td class="xl135" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>最高点前8周股价相对于最高点百分比</td>
+    <td class="xl131" colspan="19" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>技术足迹</td>
+   </tr>
+   <tr height="58" style='height:58.00pt;'>
+    <td class="xl134" x:str>支撑位<font class="font10">1</font></td>
+    <td class="xl134" x:str>阻力位<font class="font10">2</font></td>
+    <td class="xl134" x:str>支撑位<font class="font10">2</font></td>
+    <td class="xl134" x:str>阻力位<font class="font10">3</font></td>
+    <td class="xl134" x:str>支撑位<font class="font10">3</font></td>
+    <td class="xl134" x:str>阻力位<font class="font10">4</font></td>
+    <td class="xl134" x:str>支撑位<font class="font10">4</font></td>
+    <td class="xl134" x:str>阻力位<font class="font10">5</font></td>
+    <td class="xl134" x:str>支撑位<font class="font10">5</font></td>
+    <td class="xl134" x:str>阻力位<font class="font10">6</font></td>
+    <td class="xl134" x:str>支撑位<font class="font10">6</font></td>
+    <td class="xl128" x:str>时间周期</td>
+    <td class="xl135" x:str>收缩量1</td>
+    <td class="xl135" x:str>收缩量2</td>
+    <td class="xl135" x:str>收缩量3</td>
+    <td class="xl135" x:str>收缩量4</td>
+    <td class="xl135" x:str>收缩量5</td>
+    <td class="xl135" x:str>收缩量6</td>
+    <td class="xl128" x:str>收缩数量<font class="font5"><br/></font><font class="font5">(至少大于3T)</font></td>
+   </tr>
+   <tr height="17.60" style='height:17.60pt;'>
+    <td class="xl118" height="17.60" style='height:17.60pt;' x:str>688200.SH</td>
+    <td class="xl119" x:str>华峰测控</td>
+    <td class="xl120" x:num>5.08</td>
+    <td class="xl121" x:str>半导体及元件</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688200.SH</td>
-    <td class="xl69" x:str>华峰测控</td>
-    <td class="xl70" x:num>5.08</td>
-    <td class="xl83" x:str>半导体及元件</td>
-    <td class="xl83" x:str>半导体及元件</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E2)" x:num>5</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688188.SH</td>
+    <td class="xl119" x:str>柏楚电子</td>
+    <td class="xl120" x:num>4.61</td>
+    <td class="xl122" x:str>自动化设备</td>
+    <td class="xl122"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688188.SH</td>
-    <td class="xl69" x:str>柏楚电子</td>
-    <td class="xl70" x:num>4.61</td>
-    <td class="xl85" x:str>自动化设备</td>
-    <td class="xl85" x:str>自动化设备</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E3)" x:num>2</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688301.SH</td>
+    <td class="xl119" x:str>奕瑞科技</td>
+    <td class="xl120" x:num>4.49</td>
+    <td class="xl121" x:str>医疗器械</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688301.SH</td>
-    <td class="xl69" x:str>奕瑞科技</td>
-    <td class="xl70" x:num>4.49</td>
-    <td class="xl83" x:str>医疗器械</td>
-    <td class="xl83" x:str>医疗器械</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E4)" x:num>2</td>
-   </tr>
-   <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688598.SH</td>
-    <td class="xl69" x:str>金博股份</td>
-    <td class="xl70" x:num>4.18</td>
-    <td class="xl85" x:str>电力设备</td>
-    <td class="xl85" x:str>电力设备</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E5)" x:num>7</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688598.SH</td>
+    <td class="xl119" x:str>金博股份</td>
+    <td class="xl120" x:num>4.18</td>
+    <td class="xl122" x:str>电力设备</td>
+    <td class="xl122"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="36" style='height:36.00pt;'>
-    <td class="xl68" height="36" style='height:36.00pt;' x:str>688536.SH</td>
-    <td class="xl69" x:str>思瑞浦</td>
-    <td class="xl70" x:num="3.8999999999999999">3.90</td>
-    <td class="xl85" x:str>半导体及元件</td>
-    <td class="xl85" x:str>非金属材料</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E6)" x:num>2</td>
+    <td class="xl118" height="36" style='height:36.00pt;' x:str>688536.SH</td>
+    <td class="xl119" x:str>思瑞浦</td>
+    <td class="xl120" x:num="3.8999999999999999">3.90</td>
+    <td class="xl122" x:str>半导体及元件</td>
+    <td class="xl122"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688357.SH</td>
-    <td class="xl69" x:str>建龙微纳</td>
-    <td class="xl70" x:num>3.47</td>
-    <td class="xl85" x:str>非金属材料</td>
-    <td class="xl83" x:str>通用设备</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E7)" x:num>4</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688357.SH</td>
+    <td class="xl119" x:str>建龙微纳</td>
+    <td class="xl120" x:num>3.47</td>
+    <td class="xl122" x:str>非金属材料</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688330.SH</td>
-    <td class="xl69" x:str>宏力达</td>
-    <td class="xl70" x:num>3.28</td>
-    <td class="xl85" x:str>电力设备</td>
-    <td class="xl83" x:str>专用设备</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E8)" x:num>4</td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688330.SH</td>
+    <td class="xl119" x:str>宏力达</td>
+    <td class="xl120" x:num>3.28</td>
+    <td class="xl122" x:str>电力设备</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688059.SH</td>
-    <td class="xl69" x:str>华锐精密</td>
-    <td class="xl70" x:num>2.93</td>
-    <td class="xl83" x:str>通用设备</td>
-    <td class="xl83" x:str>汽车零部件</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E9)" x:num>1</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688059.SH</td>
+    <td class="xl119" x:str>华锐精密</td>
+    <td class="xl120" x:num>2.93</td>
+    <td class="xl121" x:str>通用设备</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688789.SH</td>
-    <td class="xl69" x:str>宏华数科</td>
-    <td class="xl70" x:num>2.66</td>
-    <td class="xl83" x:str>专用设备</td>
-    <td class="xl83" x:str>电子化学品</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E10)" x:num>1</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688789.SH</td>
+    <td class="xl119" x:str>宏华数科</td>
+    <td class="xl120" x:num>2.66</td>
+    <td class="xl121" x:str>专用设备</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688667.SH</td>
-    <td class="xl69" x:str>菱电电控</td>
-    <td class="xl70" x:num>2.56</td>
-    <td class="xl83" x:str>汽车零部件</td>
-    <td class="xl85" x:str>化学制药</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E11)" x:num>2</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688667.SH</td>
+    <td class="xl119" x:str>菱电电控</td>
+    <td class="xl120" x:num>2.56</td>
+    <td class="xl121" x:str>汽车零部件</td>
+    <td class="xl122"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688390.SH</td>
-    <td class="xl69" x:str>固德威</td>
-    <td class="xl70" x:num>2.44</td>
-    <td class="xl83" x:str>电力设备</td>
-    <td class="xl83" x:str>仪器仪表</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E12)" x:num>1</td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688390.SH</td>
+    <td class="xl119" x:str>固德威</td>
+    <td class="xl120" x:num>2.44</td>
+    <td class="xl121" x:str>电力设备</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688550.SH</td>
-    <td class="xl69" x:str>瑞联新材</td>
-    <td class="xl70" x:num="2.3999999999999999">2.40</td>
-    <td class="xl83" x:str>电子化学品</td>
-    <td class="xl83" x:str>国防军工</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E13)" x:num>3</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688550.SH</td>
+    <td class="xl119" x:str>瑞联新材</td>
+    <td class="xl120" x:num="2.3999999999999999">2.40</td>
+    <td class="xl121" x:str>电子化学品</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688356.SH</td>
-    <td class="xl69" x:str>键凯科技</td>
-    <td class="xl70" x:num>2.37</td>
-    <td class="xl85" x:str>化学制药</td>
-    <td class="xl85" x:str>化工合成材料</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E14)" x:num>1</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688356.SH</td>
+    <td class="xl119" x:str>键凯科技</td>
+    <td class="xl120" x:num>2.37</td>
+    <td class="xl122" x:str>化学制药</td>
+    <td class="xl122"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688516.SH</td>
-    <td class="xl69" x:str>奥特维</td>
-    <td class="xl70" x:num>2.31</td>
-    <td class="xl83" x:str>电力设备</td>
-    <td class="xl83" x:str>通信设备</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E15)" x:num>1</td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688516.SH</td>
+    <td class="xl119" x:str>奥特维</td>
+    <td class="xl120" x:num>2.31</td>
+    <td class="xl121" x:str>电力设备</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688499.SH</td>
-    <td class="xl69" x:str>利元亨</td>
-    <td class="xl70" x:num>2.13</td>
-    <td class="xl83" x:str>电力设备</td>
-    <td class="xl83" x:str>工业金属</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E16)" x:num>1</td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688499.SH</td>
+    <td class="xl119" x:str>利元亨</td>
+    <td class="xl120" x:num>2.13</td>
+    <td class="xl121" x:str>电力设备</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688378.SH</td>
-    <td class="xl69" x:str>奥来德</td>
-    <td class="xl70" x:num>2.01</td>
-    <td class="xl83" x:str>专用设备</td>
-    <td class="xl83" x:str>金属新材料</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E17)" x:num>2</td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688378.SH</td>
+    <td class="xl119" x:str>奥来德</td>
+    <td class="xl120" x:num>2.01</td>
+    <td class="xl121" x:str>专用设备</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688665.SH</td>
-    <td class="xl69" x:str>四方光电</td>
-    <td class="xl70" x:num>1.86</td>
-    <td class="xl83" x:str>仪器仪表</td>
-    <td class="xl83" x:str>化学制品</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E18)" x:num>4</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688665.SH</td>
+    <td class="xl119" x:str>四方光电</td>
+    <td class="xl120" x:num>1.86</td>
+    <td class="xl121" x:str>仪器仪表</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688776.SH</td>
-    <td class="xl69" x:str>国光电气</td>
-    <td class="xl70" x:num>1.83</td>
-    <td class="xl83" x:str>国防军工</td>
-    <td class="xl85" x:str>消费电子</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E19)" x:num>1</td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688776.SH</td>
+    <td class="xl119" x:str>国光电气</td>
+    <td class="xl120" x:num>1.83</td>
+    <td class="xl121" x:str>国防军工</td>
+    <td class="xl122"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="36" style='height:36.00pt;'>
-    <td class="xl68" height="36" style='height:36.00pt;' x:str>688087.SH</td>
-    <td class="xl69" x:str>英科再生</td>
-    <td class="xl70" x:num>1.82</td>
-    <td class="xl85" x:str>化工合成材料</td>
-    <td class="xl83" x:str>钢铁</td>
-    <td class="xl113" align="right" x:fmla="=COUNTIF(D:D,E20)" x:num>1</td>
+    <td class="xl118" height="36" style='height:36.00pt;' x:str>688087.SH</td>
+    <td class="xl119" x:str>英科再生</td>
+    <td class="xl120" x:num>1.82</td>
+    <td class="xl122" x:str>化工合成材料</td>
+    <td class="xl121"></td>
+    <td class="xl129"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688080.SH</td>
-    <td class="xl69" x:str>映翰通</td>
-    <td class="xl70" x:num>1.75</td>
-    <td class="xl83" x:str>通信设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688080.SH</td>
+    <td class="xl119" x:str>映翰通</td>
+    <td class="xl120" x:num>1.75</td>
+    <td class="xl121" x:str>通信设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688388.SH</td>
-    <td class="xl69" x:str>嘉元科技</td>
-    <td class="xl70" x:num>1.71</td>
-    <td class="xl83" x:str>工业金属</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688388.SH</td>
+    <td class="xl119" x:str>嘉元科技</td>
+    <td class="xl120" x:num>1.71</td>
+    <td class="xl121" x:str>工业金属</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688269.SH</td>
-    <td class="xl69" x:str>凯立新材</td>
-    <td class="xl70" x:num>1.62</td>
-    <td class="xl83" x:str>金属新材料</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688269.SH</td>
+    <td class="xl119" x:str>凯立新材</td>
+    <td class="xl120" x:num>1.62</td>
+    <td class="xl121" x:str>金属新材料</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688513.SH</td>
-    <td class="xl69" x:str>苑东生物</td>
-    <td class="xl70" x:num>1.55</td>
-    <td class="xl83" x:str>化学制药</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688513.SH</td>
+    <td class="xl119" x:str>苑东生物</td>
+    <td class="xl120" x:num>1.55</td>
+    <td class="xl121" x:str>化学制药</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688636.SH</td>
-    <td class="xl69" x:str>智明达</td>
-    <td class="xl70" x:num>1.54</td>
-    <td class="xl83" x:str>国防军工</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688636.SH</td>
+    <td class="xl119" x:str>智明达</td>
+    <td class="xl120" x:num>1.54</td>
+    <td class="xl121" x:str>国防军工</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688105.SH</td>
-    <td class="xl69" x:str>诺唯赞</td>
-    <td class="xl70" x:num>1.53</td>
-    <td class="xl83" x:str>医疗器械</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688105.SH</td>
+    <td class="xl119" x:str>诺唯赞</td>
+    <td class="xl120" x:num>1.53</td>
+    <td class="xl121" x:str>医疗器械</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688300.SH</td>
-    <td class="xl69" x:str>联瑞新材</td>
-    <td class="xl70" x:num="1.5">1.50</td>
-    <td class="xl83" x:str>非金属材料</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688300.SH</td>
+    <td class="xl119" x:str>联瑞新材</td>
+    <td class="xl120" x:num="1.5">1.50</td>
+    <td class="xl121" x:str>非金属材料</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688680.SH</td>
-    <td class="xl69" x:str>海优新材</td>
-    <td class="xl70" x:num>1.47</td>
-    <td class="xl85" x:str>电力设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688680.SH</td>
+    <td class="xl119" x:str>海优新材</td>
+    <td class="xl120" x:num>1.47</td>
+    <td class="xl122" x:str>电力设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688257.SH</td>
-    <td class="xl69" x:str>新锐股份</td>
-    <td class="xl70" x:num>1.46</td>
-    <td class="xl85" x:str>通用设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688257.SH</td>
+    <td class="xl119" x:str>新锐股份</td>
+    <td class="xl120" x:num>1.46</td>
+    <td class="xl122" x:str>通用设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="36" style='height:36.00pt;'>
-    <td class="xl68" height="36" style='height:36.00pt;' x:str>688519.SH</td>
-    <td class="xl69" x:str>南亚新材</td>
-    <td class="xl70" x:num>1.37</td>
-    <td class="xl85" x:str>半导体及元件</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="36" style='height:36.00pt;' x:str>688519.SH</td>
+    <td class="xl119" x:str>南亚新材</td>
+    <td class="xl120" x:num>1.37</td>
+    <td class="xl122" x:str>半导体及元件</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688162.SH</td>
-    <td class="xl69" x:str>巨一科技</td>
-    <td class="xl70" x:num>1.36</td>
-    <td class="xl83" x:str>专用设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688162.SH</td>
+    <td class="xl119" x:str>巨一科技</td>
+    <td class="xl123" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:num>1.36</td>
+    <td class="xl121" x:str>专用设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688633.SH</td>
-    <td class="xl69" x:str>星球石墨</td>
-    <td class="xl70" x:num>1.36</td>
-    <td class="xl83" x:str>专用设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688633.SH</td>
+    <td class="xl119" x:str>星球石墨</td>
+    <td class="xl121" x:str>专用设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="28" style='height:28.00pt;'>
-    <td class="xl68" height="28" style='height:28.00pt;' x:str>688077.SH</td>
-    <td class="xl69" x:str>大地熊</td>
-    <td class="xl70" x:num>1.31</td>
-    <td class="xl83" x:str>金属新材料</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="28" style='height:28.00pt;' x:str>688077.SH</td>
+    <td class="xl119" x:str>大地熊</td>
+    <td class="xl120" x:num>1.31</td>
+    <td class="xl121" x:str>金属新材料</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688398.SH</td>
-    <td class="xl69" x:str>赛特新材</td>
-    <td class="xl70" x:num>1.24</td>
-    <td class="xl83" x:str>化学制品</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688398.SH</td>
+    <td class="xl119" x:str>赛特新材</td>
+    <td class="xl120" x:num>1.24</td>
+    <td class="xl121" x:str>化学制品</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688005.SH</td>
-    <td class="xl69" x:str>容百科技</td>
-    <td class="xl70" x:num>1.23</td>
-    <td class="xl83" x:str>电力设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688005.SH</td>
+    <td class="xl119" x:str>容百科技</td>
+    <td class="xl120" x:num>1.23</td>
+    <td class="xl121" x:str>电力设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688099.SH</td>
-    <td class="xl69" x:str>晶晨股份</td>
-    <td class="xl70" x:num>1.22</td>
-    <td class="xl83" x:str>半导体及元件</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688099.SH</td>
+    <td class="xl119" x:str>晶晨股份</td>
+    <td class="xl123" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:num>1.22</td>
+    <td class="xl121" x:str>半导体及元件</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688122.SH</td>
-    <td class="xl69" x:str>西部超导</td>
-    <td class="xl70" x:num>1.22</td>
-    <td class="xl83" x:str>国防军工</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688122.SH</td>
+    <td class="xl119" x:str>西部超导</td>
+    <td class="xl121" x:str>国防军工</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688065.SH</td>
-    <td class="xl69" x:str>凯赛生物</td>
-    <td class="xl70" x:num>1.18</td>
-    <td class="xl83" x:str>化学制品</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688065.SH</td>
+    <td class="xl119" x:str>凯赛生物</td>
+    <td class="xl123" rowspan="2" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:num>1.18</td>
+    <td class="xl121" x:str>化学制品</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688017.SH</td>
-    <td class="xl69" x:str>绿的谐波</td>
-    <td class="xl70" x:num>1.18</td>
-    <td class="xl83" x:str>自动化设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688017.SH</td>
+    <td class="xl119" x:str>绿的谐波</td>
+    <td class="xl121" x:str>自动化设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688558.SH</td>
-    <td class="xl69" x:str>国盛智科</td>
-    <td class="xl70" x:num>1.15</td>
-    <td class="xl83" x:str>通用设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688558.SH</td>
+    <td class="xl119" x:str>国盛智科</td>
+    <td class="xl120" x:num>1.15</td>
+    <td class="xl121" x:str>通用设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688661.SH</td>
-    <td class="xl69" x:str>和林微纳</td>
-    <td class="xl70" x:num>1.14</td>
-    <td class="xl85" x:str>消费电子</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688661.SH</td>
+    <td class="xl119" x:str>和林微纳</td>
+    <td class="xl120" x:num>1.14</td>
+    <td class="xl122" x:str>消费电子</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688186.SH</td>
-    <td class="xl69" x:str>广大特材</td>
-    <td class="xl70" x:num>1.08</td>
-    <td class="xl83" x:str>钢铁</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688186.SH</td>
+    <td class="xl119" x:str>广大特材</td>
+    <td class="xl120" x:num>1.08</td>
+    <td class="xl121" x:str>钢铁</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688233.SH</td>
-    <td class="xl69" x:str>神工股份</td>
-    <td class="xl70" x:num>1.06</td>
-    <td class="xl83" x:str>半导体及元件</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688233.SH</td>
+    <td class="xl119" x:str>神工股份</td>
+    <td class="xl123" rowspan="3" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:num>1.06</td>
+    <td class="xl121" x:str>半导体及元件</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688577.SH</td>
-    <td class="xl69" x:str>浙海德曼</td>
-    <td class="xl70" x:num>1.06</td>
-    <td class="xl83" x:str>通用设备</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688577.SH</td>
+    <td class="xl119" x:str>浙海德曼</td>
+    <td class="xl121" x:str>通用设备</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688639.SH</td>
-    <td class="xl69" x:str>华恒生物</td>
-    <td class="xl70" x:num>1.06</td>
-    <td class="xl83" x:str>化学制品</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688639.SH</td>
+    <td class="xl119" x:str>华恒生物</td>
+    <td class="xl121" x:str>化学制品</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <tr height="29" style='height:29.00pt;'>
-    <td class="xl68" height="29" style='height:29.00pt;' x:str>688625.SH</td>
-    <td class="xl69" x:str>呈和科技</td>
-    <td class="xl70" x:num>1.05</td>
-    <td class="xl83" x:str>化学制品</td>
-    <td colspan="2" style='mso-ignore:colspan;'></td>
+    <td class="xl118" height="29" style='height:29.00pt;' x:str>688625.SH</td>
+    <td class="xl119" x:str>呈和科技</td>
+    <td class="xl120" x:num>1.05</td>
+    <td class="xl121" x:str>化学制品</td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
+    <td class="xl130"></td>
    </tr>
    <![if supportMisalignedColumns]>
     <tr width="0" style='display:none;'>
-     <td width="62" style='width:62;'></td>
-     <td width="52" style='width:52;'></td>
-     <td width="87" style='width:87;'></td>
+     <td width="76" style='width:76;'></td>
      <td width="72" style='width:72;'></td>
-     <td width="86" style='width:86;'></td>
-     <td width="51" style='width:51;'></td>
+     <td width="114" style='width:114;'></td>
+     <td width="102" style='width:102;'></td>
+     <td width="80" style='width:80;'></td>
+     <td width="48" style='width:48;'></td>
     </tr>
    <![endif]>
   </table>
