@@ -1,4 +1,4 @@
-var c_lTabs=8;
+var c_lTabs=9;
 var c_rgszSh=new Array(c_lTabs);
 c_rgszSh[0]="每股收益最高前600";
 c_rgszSh[1]="第二阶段汇总";
@@ -8,7 +8,8 @@ c_rgszSh[4]="科创板";
 c_rgszSh[5]="主板行业图表";
 c_rgszSh[6]="创业板行业图表";
 c_rgszSh[7]="科创板行业图表";
-var g_iShCur=5;
+c_rgszSh[8]="Sheet1";
+var g_iShCur=2;
 var g_rglTabX=new Array(c_lTabs+1);
 var g_clrs=new Array(8);
 g_clrs[0]="window";
