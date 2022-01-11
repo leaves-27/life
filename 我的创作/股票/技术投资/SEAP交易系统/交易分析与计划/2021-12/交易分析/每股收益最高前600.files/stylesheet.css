@@ -3034,7 +3034,7 @@ td
 	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FF0000;
+	background:#00B0F0;
 	mso-font-charset:134;
 	border-top:.5pt solid windowtext;
 	border-right:.5pt solid windowtext;
@@ -3095,18 +3095,18 @@ td
 	background:#00B0F0;
 	mso-font-charset:134;}
 .xl335
-	{mso-style-parent:style24;
-	mso-number-format:"0\.00%";
-	text-align:center;
-	mso-pattern:auto none;
-	background:#00B0F0;
-	border:.5pt solid windowtext;}
-.xl336
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-pattern:auto none;
 	background:#00B0F0;
 	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl336
+	{mso-style-parent:style24;
+	mso-number-format:"0\.00%";
+	text-align:center;
+	mso-pattern:auto none;
+	background:#00B0F0;
 	border:.5pt solid windowtext;}
 .xl337
 	{mso-style-parent:style0;
