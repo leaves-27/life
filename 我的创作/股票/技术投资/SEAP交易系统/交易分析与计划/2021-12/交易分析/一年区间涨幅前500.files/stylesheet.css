@@ -794,22 +794,22 @@ td
 .xl84
 	{mso-style-parent:style0;
 	mso-pattern:auto none;
-	background:#FF0000;
+	background:#92D050;
 	mso-font-charset:134;}
 .xl85
 	{mso-style-parent:style0;
 	mso-pattern:auto none;
-	background:#92D050;
+	background:#FFFFFF;
 	mso-font-charset:134;}
 .xl86
 	{mso-style-parent:style0;
 	mso-pattern:auto none;
-	background:#FFFFFF;
+	background:#FFFF00;
 	mso-font-charset:134;}
 .xl87
 	{mso-style-parent:style0;
 	mso-pattern:auto none;
-	background:#FFFF00;
+	background:#FF0000;
 	mso-font-charset:134;}
 .xl88
 	{mso-style-parent:style0;
@@ -903,7 +903,7 @@ td
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FF0000;
+	background:#00B0F0;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl103
@@ -911,7 +911,7 @@ td
 	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FF0000;
+	background:#00B0F0;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl104
@@ -974,7 +974,7 @@ td
 	mso-number-format:"0\.00%";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FF0000;
+	background:#00B0F0;
 	border:.5pt solid windowtext;}
 .xl111
 	{mso-style-parent:style0;
@@ -1039,7 +1039,7 @@ td
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FF0000;
+	background:#00B0F0;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl119
@@ -1047,7 +1047,7 @@ td
 	mso-number-format:"yyyy/mm/dd";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FF0000;
+	background:#00B0F0;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl120
@@ -1159,7 +1159,6 @@ td
 	border:.5pt solid windowtext;}
 .xl133
 	{mso-style-parent:style0;
-	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
 	background:#FF0000;
@@ -1167,21 +1166,21 @@ td
 	border:.5pt solid windowtext;}
 .xl134
 	{mso-style-parent:style0;
+	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FFFF00;
+	background:#FF0000;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl135
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FFFFFF;
+	background:#FFFF00;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl136
 	{mso-style-parent:style0;
-	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
 	background:#FFFFFF;
@@ -1189,9 +1188,10 @@ td
 	border:.5pt solid windowtext;}
 .xl137
 	{mso-style-parent:style0;
+	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#00B0F0;
+	background:#FFFFFF;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl138
@@ -1214,7 +1214,7 @@ td
 	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#00B0F0;
+	background:#FF0000;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl141
@@ -1290,7 +1290,7 @@ td
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FFFFFF;
+	background:#FF0000;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl152
@@ -1298,13 +1298,13 @@ td
 	mso-number-format:"0\.00%";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#00B0F0;
+	background:#FF0000;
 	border:.5pt solid windowtext;}
 .xl153
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-pattern:auto none;
-	background:#00B0F0;
+	background:#FFFFFF;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl154
