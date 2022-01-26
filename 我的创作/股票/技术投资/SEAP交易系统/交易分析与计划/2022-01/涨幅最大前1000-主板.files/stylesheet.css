@@ -1526,49 +1526,46 @@ td
 	mso-font-charset:134;}
 .xl183
 	{mso-style-parent:style0;
-	mso-number-format:"0\.00%";
+	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FFFFFF;
+	background:#FFFF00;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl184
+	{mso-style-parent:style0;
+	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
+	text-align:center;
+	mso-pattern:auto none;
+	background:#FFFF00;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl185
+	{mso-style-parent:style0;
+	mso-pattern:auto none;
+	background:#FFFF00;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl186
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
 	color:#152122;
 	font-size:9.0pt;
 	font-family:方正书宋_GBK;
-	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl185
+.xl187
 	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	mso-pattern:auto none;
 	background:#92D050;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl186
-	{mso-style-parent:style0;
-	text-align:center;
-	mso-pattern:auto none;
-	background:#FFFFFF;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl187
-	{mso-style-parent:style24;
-	mso-number-format:"0\.00%";
-	text-align:center;
-	mso-pattern:auto none;
-	background:#FFFFFF;
-	border:.5pt solid windowtext;}
+	mso-font-charset:134;}
 .xl188
 	{mso-style-parent:style0;
-	text-align:center;
-	white-space:normal;
+	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	mso-pattern:auto none;
-	background:#FFFFFF;
+	background:#92D050;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl189
@@ -1604,18 +1601,12 @@ td
 	border:.5pt solid windowtext;}
 .xl192
 	{mso-style-parent:style0;
-	mso-pattern:auto none;
-	background:#FF0000;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl193
-	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
 	background:#FFFFFF;
 	mso-font-charset:134;}
-.xl194
+.xl193
 	{mso-style-parent:style0;
 	mso-number-format:"yyyy/mm/dd";
 	text-align:center;
