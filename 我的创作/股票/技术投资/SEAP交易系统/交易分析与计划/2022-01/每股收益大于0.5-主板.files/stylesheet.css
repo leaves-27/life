@@ -682,20 +682,13 @@ td
 .xl78
 	{mso-style-parent:style0;
 	text-align:center;
-	mso-pattern:auto none;
-	background:#FFC000;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl79
-	{mso-style-parent:style0;
-	text-align:center;
 	white-space:normal;
 	color:#152122;
 	font-size:9.0pt;
 	font-family:Arial;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl80
+.xl79
 	{mso-style-parent:style0;
 	mso-number-format:"0\.00";
 	text-align:center;
@@ -705,13 +698,38 @@ td
 	font-family:Arial;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl81
+.xl80
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#FFC000;
+	font-family:FZShuSong-Z01;
+	mso-font-charset:134;
+	border-left:.5pt solid windowtext;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;}
+.xl83
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl82
+.xl84
 	{mso-style-parent:style0;
 	text-align:center;
+	mso-pattern:auto none;
+	background:#92D050;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl85
+	{mso-style-parent:style0;
+	text-align:center;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl86
+	{mso-style-parent:style0;
+	text-align:center;
+	mso-pattern:auto none;
+	background:#92D050;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}

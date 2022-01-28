@@ -1,6 +1,6 @@
 var c_lTabs=2;
 var c_rgszSh=new Array(c_lTabs);
-c_rgszSh[0]="是否上升阶段";
+c_rgszSh[0]="技术分析";
 c_rgszSh[1]="技术面分析";
 var g_iShCur=0;
 var g_rglTabX=new Array(c_lTabs+1);
