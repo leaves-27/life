@@ -1,7 +1,7 @@
 var c_lTabs=2;
 var c_rgszSh=new Array(c_lTabs);
-c_rgszSh[0]="技术分析";
-c_rgszSh[1]="技术面分析";
+c_rgszSh[0]="技术面分析";
+c_rgszSh[1]="重复项";
 var g_iShCur=0;
 var g_rglTabX=new Array(c_lTabs+1);
 var g_clrs=new Array(8);
