@@ -1145,7 +1145,6 @@ td
 	border:.5pt solid windowtext;}
 .xl134
 	{mso-style-parent:style0;
-	mso-number-format:"0\.00";
 	text-align:center;
 	white-space:normal;
 	mso-pattern:auto none;
@@ -1157,6 +1156,7 @@ td
 	border:.5pt solid windowtext;}
 .xl135
 	{mso-style-parent:style0;
+	mso-number-format:"0\.00";
 	text-align:center;
 	white-space:normal;
 	mso-pattern:auto none;
