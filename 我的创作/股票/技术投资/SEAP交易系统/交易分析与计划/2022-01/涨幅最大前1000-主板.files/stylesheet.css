@@ -1562,36 +1562,17 @@ td
 	border:.5pt solid windowtext;}
 .xl185
 	{mso-style-parent:style0;
-	text-align:center;
-	white-space:normal;
-	mso-pattern:auto none;
-	background:#FF0000;
-	color:#152122;
-	font-size:9.0pt;
-	font-family:Arial;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl186
-	{mso-style-parent:style0;
-	mso-number-format:"0\.00%";
-	text-align:center;
-	mso-pattern:auto none;
-	background:#FF0000;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl187
-	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	mso-pattern:auto none;
 	background:#92D050;
 	mso-font-charset:134;}
-.xl188
+.xl186
 	{mso-style-parent:style0;
 	mso-pattern:auto none;
 	background:#FFFF00;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl189
+.xl187
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
@@ -1602,7 +1583,7 @@ td
 	font-family:方正书宋_GBK;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl190
+.xl188
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
@@ -1613,26 +1594,45 @@ td
 	font-family:方正书宋_GBK;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
+.xl189
+	{mso-style-parent:style0;
+	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
+	mso-pattern:auto none;
+	background:#FFFF00;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl190
+	{mso-style-parent:style0;
+	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
+	mso-pattern:auto none;
+	background:#FFFF00;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
 .xl191
-	{mso-style-parent:style0;
-	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
-	mso-pattern:auto none;
-	background:#FFFF00;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl192
-	{mso-style-parent:style0;
-	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
-	mso-pattern:auto none;
-	background:#FFFF00;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl193
 	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
 	mso-pattern:auto none;
 	background:#806000;
 	mso-font-charset:134;}
+.xl192
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#FF0000;
+	color:#152122;
+	font-size:9.0pt;
+	font-family:Arial;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl193
+	{mso-style-parent:style0;
+	mso-number-format:"0\.00%";
+	text-align:center;
+	mso-pattern:auto none;
+	background:#FF0000;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
 .xl194
 	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\\\(0\.00\\\)";
