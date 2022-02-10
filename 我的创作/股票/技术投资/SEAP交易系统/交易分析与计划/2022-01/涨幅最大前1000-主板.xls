@@ -8,7 +8,7 @@
    <xml>
     <o:DocumentProperties>
      <o:Created>2022-01-17T17:54:26</o:Created>
-     <o:LastSaved>2022-02-09T21:33:47</o:LastSaved>
+     <o:LastSaved>2022-02-10T20:38:18</o:LastSaved>
     </o:DocumentProperties>
     <o:CustomDocumentProperties>
      <o:KSOProductBuildVer dt:dt="string">2052-3.9.3.6359</o:KSOProductBuildVer>
@@ -44,7 +44,7 @@
      <x:Name>_FilterDatabase</x:Name>
      <x:Hidden/>
      <x:SheetIndex>1</x:SheetIndex>
-     <x:Formula>=技术分析!$C$1:$C$653</x:Formula>
+     <x:Formula>=技术分析!$A$3:$AO$653</x:Formula>
     </x:ExcelName>
    </xml>
   <![endif]-->

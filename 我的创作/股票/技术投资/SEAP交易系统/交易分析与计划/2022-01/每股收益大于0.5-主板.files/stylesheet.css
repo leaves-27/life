@@ -3287,3 +3287,26 @@ td
 	background:#FFFFFF;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
+.xl360
+	{mso-style-parent:style0;
+	mso-number-format:"0\.00%";
+	text-align:center;
+	mso-pattern:auto none;
+	background:#FFFFFF;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl361
+	{mso-style-parent:style0;
+	mso-pattern:auto none;
+	background:#FF0000;
+	mso-font-charset:134;}
+.xl362
+	{mso-style-parent:style24;
+	mso-number-format:"0\.00%";
+	text-align:center;
+	white-space:normal;
+	mso-pattern:auto none;
+	background:#92D050;
+	color:#152122;
+	font-size:9.0pt;
+	border:.5pt solid windowtext;}
