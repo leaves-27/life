@@ -7,7 +7,7 @@
    <xml>
     <o:DocumentProperties>
      <o:Created>2022-01-18T16:39:00</o:Created>
-     <o:LastSaved>2022-02-18T09:03:16</o:LastSaved>
+     <o:LastSaved>2022-02-18T09:35:01</o:LastSaved>
     </o:DocumentProperties>
     <o:CustomDocumentProperties>
      <o:KSOProductBuildVer dt:dt="string">2052-3.9.3.6359</o:KSOProductBuildVer>
@@ -3417,9 +3417,9 @@ td
         <x:FreezePanes/>
         <x:FrozenNoSplit/>
         <x:SplitHorizontal>3</x:SplitHorizontal>
-        <x:TopRowBottomPane>223</x:TopRowBottomPane>
+        <x:TopRowBottomPane>221</x:TopRowBottomPane>
         <x:SplitVertical>3</x:SplitVertical>
-        <x:LeftColumnRightPane>9</x:LeftColumnRightPane>
+        <x:LeftColumnRightPane>7</x:LeftColumnRightPane>
         <x:ActivePane>0</x:ActivePane>
         <x:Panes>
          <x:Pane>
@@ -3464,7 +3464,7 @@ td
   <![endif]-->
  </head>
  <body link="blue" vlink="purple">
-  <table width="1541.80" border="0" cellpadding="0" cellspacing="0" style='width:1541.80pt;border-collapse:collapse;table-layout:fixed;'>
+  <table width="1551.45" border="0" cellpadding="0" cellspacing="0" style='width:1551.45pt;border-collapse:collapse;table-layout:fixed;'>
    <col width="67.45" style='mso-width-source:userset;mso-width-alt:2877;'/>
    <col width="57.30" style='mso-width-source:userset;mso-width-alt:2444;'/>
    <col width="24.60" style='mso-width-source:userset;mso-width-alt:1049;'/>
@@ -3475,7 +3475,7 @@ td
    <col width="44.25" style='mso-width-source:userset;mso-width-alt:1888;'/>
    <col width="45" style='mso-width-source:userset;mso-width-alt:1920;'/>
    <col width="40.65" style='mso-width-source:userset;mso-width-alt:1734;'/>
-   <col width="32.85" style='mso-width-source:userset;mso-width-alt:1401;'/>
+   <col width="42.50" style='mso-width-source:userset;mso-width-alt:1813;'/>
    <col width="46.45" style='mso-width-source:userset;mso-width-alt:1981;'/>
    <col width="50.75" style='mso-width-source:userset;mso-width-alt:2165;'/>
    <col width="43.55" style='mso-width-source:userset;mso-width-alt:1858;'/>
@@ -3509,7 +3509,7 @@ td
     <td class="xl75" height="146.60" width="67.45" rowspan="3" x:autofilter="all" x:autofilterrange="$A$1:A952" style='height:146.60pt;width:67.45pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>股票代码</td>
     <td class="xl75" width="57.30" rowspan="3" style='width:57.30pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>股票简称</td>
     <td class="xl75" width="24.60" rowspan="3" style='width:24.60pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>基本每股收益<font class="font1">(</font><font class="font10">元</font><font class="font1">)</font><font class="font1"><br/></font><font class="font1">2021.09.30</font></td>
-    <td class="xl76" width="507.90" colspan="11" style='width:507.90pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>趋势</td>
+    <td class="xl76" width="517.55" colspan="11" style='width:517.55pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>趋势</td>
     <td class="xl120" width="22.75" rowspan="3" style='width:22.75pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>当前股价位置属于趋势的周期<font class="font1"><br/></font><font class="font45">（即数基地，</font><font class="font1">1</font><font class="font45">到</font><font class="font1">2</font><font class="font45">的时候进入，</font><font class="font1">3</font><font class="font45">到</font><font class="font1">5</font><font class="font45">应该考虑卖出）</font></td>
     <td class="xl76" width="579.80" colspan="19" style='width:579.80pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>波动收缩幅度</td>
     <td class="xl75" width="27.65" colspan="2" style='width:27.65pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>成交量行为</td>
@@ -45319,7 +45319,7 @@ td
      <td width="44" style='width:44;'></td>
      <td width="45" style='width:45;'></td>
      <td width="41" style='width:41;'></td>
-     <td width="33" style='width:33;'></td>
+     <td width="43" style='width:43;'></td>
      <td width="46" style='width:46;'></td>
      <td width="51" style='width:51;'></td>
      <td width="44" style='width:44;'></td>
