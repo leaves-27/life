@@ -8,7 +8,7 @@
    <xml>
     <o:DocumentProperties>
      <o:Created>2022-01-17T17:54:26</o:Created>
-     <o:LastSaved>2022-02-25T12:14:06</o:LastSaved>
+     <o:LastSaved>2022-02-28T12:15:38</o:LastSaved>
     </o:DocumentProperties>
     <o:CustomDocumentProperties>
      <o:KSOProductBuildVer dt:dt="string">2052-3.9.3.6359</o:KSOProductBuildVer>
@@ -36,7 +36,6 @@
      <x:Stylesheet HRef="涨幅最大前1000-主板.files/stylesheet.css"/>
      <x:ProtectStructure>False</x:ProtectStructure>
      <x:ProtectWindows>False</x:ProtectWindows>
-     <x:SelectedSheets>0</x:SelectedSheets>
      <x:WindowHeight>13420</x:WindowHeight>
      <x:WindowWidth>26500</x:WindowWidth>
     </x:ExcelWorkbook>
@@ -44,13 +43,13 @@
      <x:Name>_FilterDatabase</x:Name>
      <x:Hidden/>
      <x:SheetIndex>1</x:SheetIndex>
-     <x:Formula>=技术分析!$A$1:$A$653</x:Formula>
+     <x:Formula>=技术分析!$AN$1:$AN$409</x:Formula>
     </x:ExcelName>
     <x:ExcelName>
      <x:Name>_FilterDatabase</x:Name>
      <x:Hidden/>
      <x:SheetIndex>2</x:SheetIndex>
-     <x:Formula>=基本面分析!$B$1:$B$409</x:Formula>
+     <x:Formula>=基本面分析!$A:$A</x:Formula>
     </x:ExcelName>
    </xml>
   <![endif]-->
