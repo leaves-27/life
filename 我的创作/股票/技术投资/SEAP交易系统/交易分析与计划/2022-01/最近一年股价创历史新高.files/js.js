@@ -1,7 +1,7 @@
 var c_lTabs=2;
 var c_rgszSh=new Array(c_lTabs);
-c_rgszSh[0]="技术面分析";
-c_rgszSh[1]="基本面分析";
+c_rgszSh[0]="最近一年股价创历史新高";
+c_rgszSh[1]="Sheet1";
 var g_iShCur=0;
 var g_rglTabX=new Array(c_lTabs+1);
 var g_clrs=new Array(8);
