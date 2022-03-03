@@ -566,11 +566,8 @@ td
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
-	mso-pattern:auto none;
-	background:#7DDCF0;
-	color:#FFFFFF;
+	color:#152122;
 	font-size:9.0pt;
-	font-weight:700;
 	font-family:Arial;
 	mso-font-charset:134;
 	border:1.0pt solid #1C7A80;}
@@ -578,8 +575,11 @@ td
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
-	color:#152122;
+	mso-pattern:auto none;
+	background:#7DDCF0;
+	color:#FFFFFF;
 	font-size:9.0pt;
+	font-weight:700;
 	font-family:Arial;
 	mso-font-charset:134;
 	border:1.0pt solid #1C7A80;}
