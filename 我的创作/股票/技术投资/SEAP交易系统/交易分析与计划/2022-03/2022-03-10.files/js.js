@@ -1,4 +1,4 @@
-var c_lTabs=27;
+var c_lTabs=28;
 var c_rgszSh=new Array(c_lTabs);
 c_rgszSh[0]="2022-03-10";
 c_rgszSh[1]="行业基本面";
@@ -27,7 +27,8 @@ c_rgszSh[23]="医药商业III";
 c_rgszSh[24]="广告营销";
 c_rgszSh[25]="港口";
 c_rgszSh[26]="航运";
-var g_iShCur=1;
+c_rgszSh[27]="行业频率";
+var g_iShCur=27;
 var g_rglTabX=new Array(c_lTabs+1);
 var g_clrs=new Array(8);
 g_clrs[0]="window";
