@@ -8,7 +8,7 @@
    <xml>
     <o:DocumentProperties>
      <o:Created>2022-03-10T16:53:24</o:Created>
-     <o:LastSaved>2022-03-11T10:34:53</o:LastSaved>
+     <o:LastSaved>2022-03-11T17:16:57</o:LastSaved>
     </o:DocumentProperties>
     <o:CustomDocumentProperties>
      <o:KSOProductBuildVer dt:dt="string">2052-3.9.3.6359</o:KSOProductBuildVer>
@@ -45,7 +45,7 @@
   <link id="shLink" href="2022-03-10.files/sheet027.htm"/>
   <link id="shLink" href="2022-03-10.files/sheet028.htm"/>
   <script src="2022-03-10.files\js.js"></script>
-  <script type="text/javascript">window.g_iIEVer=fnGetIEVer();fnBuildFrameset(27);</script>
+  <script type="text/javascript">window.g_iIEVer=fnGetIEVer();fnBuildFrameset(0);</script>
   <!--[if gte mso 9]>
    <xml>
     <x:ExcelWorkbook>
@@ -164,7 +164,6 @@
       </x:ExcelWorksheet>
      </x:ExcelWorksheets>
      <x:Stylesheet HRef="2022-03-10.files/stylesheet.css"/>
-     <x:ActiveSheet>27</x:ActiveSheet>
      <x:ProtectStructure>False</x:ProtectStructure>
      <x:ProtectWindows>False</x:ProtectWindows>
      <x:WindowHeight>13420</x:WindowHeight>
@@ -182,11 +181,17 @@
      <x:SheetIndex>2</x:SheetIndex>
      <x:Formula>=行业基本面!$A:$A</x:Formula>
     </x:ExcelName>
+    <x:ExcelName>
+     <x:Name>_FilterDatabase</x:Name>
+     <x:Hidden/>
+     <x:SheetIndex>28</x:SheetIndex>
+     <x:Formula>=行业频率!$D$1:$D$33</x:Formula>
+    </x:ExcelName>
    </xml>
   <![endif]-->
  </head>
  <frameset rows="*,36" border="0" width="0" frameborder="no">
-  <frame src="2022-03-10.files/sheet028.htm" name="frSheet" noresize/>
+  <frame src="2022-03-10.files/sheet001.htm" name="frSheet" noresize/>
   <frame src="2022-03-10.files/tabstrip.htm" name="frTabs" marginwidth="0" marginheight="0"/>
   <noframes>
    <body>
