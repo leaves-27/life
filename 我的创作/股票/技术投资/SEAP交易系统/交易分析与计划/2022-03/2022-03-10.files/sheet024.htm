@@ -16,13 +16,14 @@
    <xml>
     <x:WorksheetOptions>
      <x:DefaultRowHeight>352</x:DefaultRowHeight>
-     <x:StandardWidth>2340</x:StandardWidth>
+     <x:StandardWidth>2336</x:StandardWidth>
+     <x:Selected/>
      <x:Panes>
       <x:Pane>
        <x:Number>3</x:Number>
-       <x:ActiveCol>4</x:ActiveCol>
-       <x:ActiveRow>26</x:ActiveRow>
-       <x:RangeSelection>E27</x:RangeSelection>
+       <x:ActiveCol>6</x:ActiveCol>
+       <x:ActiveRow>7</x:ActiveRow>
+       <x:RangeSelection>G8</x:RangeSelection>
       </x:Pane>
      </x:Panes>
      <x:ProtectContents>False</x:ProtectContents>
@@ -43,226 +44,434 @@
 </script>
  </head>
  <body link="blue" vlink="purple">
-  <table width="426.40" border="0" cellpadding="0" cellspacing="0" style='width:426.40pt;border-collapse:collapse;table-layout:fixed;'>
-   <col width="51.20" span="2" style='width:51.20pt;'/>
-   <col width="150" style='mso-width-source:userset;mso-width-alt:6400;'/>
-   <col width="71.60" class="xl76" style='mso-width-source:userset;mso-width-alt:3054;'/>
-   <col width="51.20" span="2" class="xl76" style='mso-width-source:userset;mso-width-alt:2184;'/>
+  <table width="806.90" border="0" cellpadding="0" cellspacing="0" style='width:806.90pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="47.75" span="2" style='mso-width-source:userset;mso-width-alt:2037;'/>
+   <col width="130.65" style='mso-width-source:userset;mso-width-alt:5574;'/>
+   <col width="62.35" class="xl77" style='mso-width-source:userset;mso-width-alt:2660;'/>
+   <col width="65" class="xl77" style='mso-width-source:userset;mso-width-alt:2773;'/>
+   <col width="44.60" class="xl77" style='mso-width-source:userset;mso-width-alt:1902;'/>
+   <col width="51.10" span="8" style='width:51.10pt;'/>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl66" height="17.60" width="51.20" style='height:17.60pt;width:51.20pt;' x:str>股票代码</td>
-    <td class="xl66" width="51.20" style='width:51.20pt;' x:str>股票简称</td>
-    <td class="xl66" width="150" style='width:150.00pt;' x:str>所属同花顺行业</td>
-    <td class="xl76" width="71.60" style='width:71.60pt;'></td>
-    <td class="xl76" width="51.20" style='width:51.20pt;'></td>
-    <td class="xl76" width="51.20" style='width:51.20pt;'></td>
+    <td class="xl78" height="58.60" width="47.75" rowspan="2" style='height:58.60pt;width:47.75pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>股票代码</td>
+    <td class="xl78" width="47.75" rowspan="2" style='width:47.75pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>股票简称</td>
+    <td class="xl78" width="130.65" rowspan="2" style='width:130.65pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>所属同花顺行业</td>
+    <td class="xl79" width="223.05" colspan="4" style='width:223.05pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>基本面</td>
+    <td class="xl86" width="204.40" colspan="4" style='width:204.40pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>技术面</td>
+    <td class="xl90" width="51.10" rowspan="2" style='width:51.10pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>得分</td>
+    <td class="xl91" width="51.10" rowspan="2" style='width:51.10pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>结论</td>
+    <td class="xl92" width="51.10" rowspan="2" style='width:51.10pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>更新时间</td>
+   </tr>
+   <tr height="41" style='height:41.00pt;'>
+    <td class="xl79" x:str>本季度利润增长<span style='display:none;'>速度</span></td>
+    <td class="xl79" x:str>本季度销售增长<span style='display:none;'>速度</span></td>
+    <td class="xl79" x:str>本季度利润<span style='display:none;'>率</span></td>
+    <td class="xl87" x:str>市盈率<br/>(股票价格/每股收益)</td>
+    <td class="xl86" x:str>价格趋势是<span style='display:none;'>否已经掉头向上</span></td>
+    <td class="xl89" x:str>当日收盘价</td>
+    <td class="xl89" x:str>最低点价格</td>
+    <td class="xl86" x:str>相对价格强<span style='display:none;'>度</span></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>605266.SH</td>
-    <td class="xl74" x:str>健之佳</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" colspan="2" style='mso-ignore:colspan;'></td>
-    <td class="xl75" x:num="5.1939500000000001">5.19<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>605266.SH</td>
+    <td class="xl81" x:str>健之佳</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-13.89728096676737">-13.90<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="16.075704080000001">16.08<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="5.3083">5.31<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>002589.SZ</td>
-    <td class="xl74" x:str>瑞康医药</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="2.6366166666666668">2.64<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.84476">3.84<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.2858000000000001">2.29<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>002589.SZ</td>
+    <td class="xl81" x:str>瑞康医药</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-50">-50.00<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="-14.29966604">-14.30<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="2.2082000000000002">2.21<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl69" height="17.60" style='height:17.60pt;' x:str>600829.SH</td>
-    <td class="xl69" x:str>人民同泰</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="2.8922416666666666">2.89<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.1050050000000002">3.11<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.07605">3.08<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl83" height="17.60" style='height:17.60pt;' x:str>600829.SH</td>
+    <td class="xl83" x:str>人民同泰</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl84" x:num="66.543057272352698">66.54<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="9.1292071900000007">9.13<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="3.234">3.23<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>600056.SH</td>
-    <td class="xl74" x:str>中国医药</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="4.4576416666666674">4.46<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="5.0180999999999996">5.02<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="4.0167999999999999">4.02<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>600056.SH</td>
+    <td class="xl81" x:str>中国医药</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-32.501941831362736">-32.50<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="-20.75361856">-20.75<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="3.7867000000000002">3.79<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>000705.SZ</td>
-    <td class="xl74" x:str>浙江震元</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="2.9090166666666661">2.91<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.7544599999999995">2.75<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.4420500000000001">2.44<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>000705.SZ</td>
+    <td class="xl81" x:str>浙江震元</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-18.382000957395878">-18.38<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="6.0295328699999997">6.03<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="2.2465999999999999">2.25<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>000028.SZ</td>
-    <td class="xl74" x:str>国药一致</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="2.793625">2.79<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.87798">2.88<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.6350499999999997">2.64<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>000028.SZ</td>
+    <td class="xl81" x:str>国药一致</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="7.7253218884120054">7.73<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="18.898423829999999">18.90<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="2.5320999999999998">2.53<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>000411.SZ</td>
-    <td class="xl74" x:str>英特集团</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="1.4412">1.44<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.2947549999999999">1.29<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.6191500000000001">1.62<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>000411.SZ</td>
+    <td class="xl81" x:str>英特集团</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="17.914322803980969">17.91<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="6.8695517300000004">6.87<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="1.5798000000000001">1.58<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>603368.SH</td>
-    <td class="xl74" x:str>柳药股份</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="5.1381583333333332">5.14<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="4.8913400000000005">4.89<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="4.3132000000000001">4.31<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>603368.SH</td>
+    <td class="xl81" x:str>柳药股份</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-17.857142857142861">-17.86<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="0.37806036999999998">0.38<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="4.2518000000000002">4.25<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>600998.SH</td>
-    <td class="xl74" x:str>九州通</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="2.3467916666666668">2.35<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.0079099999999999">2.01<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.2300500000000003">3.23<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>600998.SH</td>
+    <td class="xl81" x:str>九州通</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="14.414414414414406">14.41<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="-1.87319514">-1.87<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="2.7629000000000001">2.76<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>002462.SZ</td>
-    <td class="xl74" x:str>嘉事堂</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="2.762775">2.76<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.1098400000000002">3.11<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.4455">2.45<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>002462.SZ</td>
+    <td class="xl81" x:str>嘉事堂</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="8.333333333333341">8.33<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="19.490982020000001">19.49<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="2.4133">2.41<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>600833.SH</td>
-    <td class="xl74" x:str>第一医药</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="4.1169416666666665">4.12<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.7627200000000007">3.76<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.85785">3.86<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>600833.SH</td>
+    <td class="xl81" x:str>第一医药</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-37.640232108317214">-37.64<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="-21.463594520000001">-21.46<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="3.6086">3.61<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>603939.SH</td>
-    <td class="xl74" x:str>益丰药房</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="6.8493166666666667">6.85<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="6.8382750000000003">6.84<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="7.2893499999999998">7.29<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>603939.SH</td>
+    <td class="xl81" x:str>益丰药房</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-10.091743119266065">-10.09<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="13.512888350000001">13.51<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="7.0279999999999996">7.03<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>600713.SH</td>
-    <td class="xl74" x:str>南京医药</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="1.1498083333333335">1.15<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.1236200000000003">1.12<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.24655">1.25<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>600713.SH</td>
+    <td class="xl81" x:str>南京医药</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl84" x:num="22.222222222222221">22.22<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="10.57467902">10.57<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="1.2681">1.27<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>603883.SH</td>
-    <td class="xl74" x:str>老百姓</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="5.9927833333333345">5.99<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="5.9804050000000011">5.98<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="5.8304500000000008">5.83<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>603883.SH</td>
+    <td class="xl81" x:str>老百姓</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="9.2436974789916047">9.24<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="11.387775749999999">11.39<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="5.4244000000000003">5.42<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>600272.SH</td>
-    <td class="xl74" x:str>开开实业</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="1.6647083333333332">1.66<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.3372300000000004">2.34<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="0.92490000000000006">0.92<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>600272.SH</td>
+    <td class="xl81" x:str>开开实业</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl84" x:num="26.08695652173914">26.09<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="-11.20323509">-11.20<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="0.78349999999999997">0.78<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>601607.SH</td>
-    <td class="xl74" x:str>上海医药</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="3.2077666666666667">3.21<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.2300150000000003">3.23<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.6448499999999999">3.64<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>601607.SH</td>
+    <td class="xl81" x:str>上海医药</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl84" x:num="24.409448818897641">24.41<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="13.12269188">13.12<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="3.3321999999999998">3.33<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl69" height="17.60" style='height:17.60pt;' x:str>600511.SH</td>
-    <td class="xl69" x:str>国药股份</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="3.7377000000000002">3.74<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.7499950000000006">3.75<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="3.9573">3.96<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl83" height="17.60" style='height:17.60pt;' x:str>600511.SH</td>
+    <td class="xl83" x:str>国药股份</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl84" x:num="29.541187955245167">29.54<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="14.471707350000001">14.47<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="4.1426999999999996">4.14<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>603716.SH</td>
-    <td class="xl74" x:str>塞力医疗</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="3.8736083333333333">3.87<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="6.4605800000000002">6.46<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.39005">1.39<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>603716.SH</td>
+    <td class="xl81" x:str>塞力医疗</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-100">-100.00<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="42.120510830000001">42.12<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="1.1148">1.11<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>002727.SZ</td>
-    <td class="xl74" x:str>一心堂</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="6.6782499999999994">6.68<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="6.3654650000000004">6.37<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="7.5286499999999998">7.53<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>002727.SZ</td>
+    <td class="xl81" x:str>一心堂</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl84" x:num="21.633305140494311">21.63<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="10.39935223">10.40<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="7.2603">7.26<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>603233.SH</td>
-    <td class="xl74" x:str>大参林</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="7.4840666666666662">7.48<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="7.2200100000000003">7.22<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="7.4293499999999995">7.43<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>603233.SH</td>
+    <td class="xl81" x:str>大参林</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-5.4545454545454595">-5.45<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="17.595599060000001">17.60<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="6.7084000000000001">6.71<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>002788.SZ</td>
-    <td class="xl74" x:str>鹭燕医药</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="1.6593416666666669">1.66<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.650555">1.65<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.7498499999999999">1.75<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>002788.SZ</td>
+    <td class="xl81" x:str>鹭燕医药</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="-3.2786885245901667">-3.28<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="14.521858229999999">14.52<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="1.7336">1.73<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>000078.SZ</td>
-    <td class="xl74" x:str>海王生物</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="1.4614416666666667">1.46<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="2.0780250000000007">2.08<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.2195499999999999">1.22<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>000078.SZ</td>
+    <td class="xl81" x:str>海王生物</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="7.1724137931034635">7.17<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="13.2852102">13.29<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="1.1429">1.14<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>000950.SZ</td>
-    <td class="xl74" x:str>重药控股</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" x:num="2.2496333333333332">2.25<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="0.50398499999999991">0.50<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl75" x:num="1.9123999999999999">1.91<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>000950.SZ</td>
+    <td class="xl81" x:str>重药控股</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl82" x:num="11.428571428571439">11.43<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="42.305402890000003">42.31<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl82" x:num="1.9188000000000001">1.92<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl74" height="17.60" style='height:17.60pt;' x:str>603122.SH</td>
-    <td class="xl74" x:str>合富中国</td>
-    <td class="xl74" x:str>医药生物-医药商业-医药商业Ⅲ</td>
-    <td class="xl75" colspan="2" style='mso-ignore:colspan;'></td>
-    <td class="xl75" x:num="5.9281500000000005">5.93<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl81" height="17.60" style='height:17.60pt;' x:str>603122.SH</td>
+    <td class="xl81" x:str>合富中国</td>
+    <td class="xl81" x:str>医药生物-医药商业-医药商业Ⅲ</td>
+    <td class="xl84" x:num="20">20.00<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="16.997128060000001">17.00<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl84" x:num="5.9787999999999997">5.98<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
+    <td class="xl88"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td height="17.60" colspan="3" style='height:17.60pt;mso-ignore:colspan;'></td>
-    <td class="xl76" x:fmla="=MAX(D2:D25)" x:num="7.4840666666666662">7.48<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl76" x:fmla="=MAX(E2:E25)" x:num="7.2200100000000003">7.22<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl76" x:fmla="=MAX(F2:F25)" x:num="7.5286499999999998">7.53<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl85" colspan="3" style='mso-ignore:colspan;'></td>
+    <td colspan="8" style='mso-ignore:colspan;'></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td height="17.60" colspan="3" style='height:17.60pt;mso-ignore:colspan;'></td>
-    <td class="xl76" x:fmla="=MIN(D2:D25)" x:num="1.1498083333333335">1.15<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl76" x:fmla="=MIN(E2:E25)" x:num="0.50398499999999991">0.50<span style='mso-spacerun:yes;'>&nbsp;</span></td>
-    <td class="xl76" x:fmla="=MIN(F2:F25)" x:num="0.92490000000000006">0.92<span style='mso-spacerun:yes;'>&nbsp;</span></td>
+    <td class="xl85" colspan="3" style='mso-ignore:colspan;'></td>
+    <td colspan="8" style='mso-ignore:colspan;'></td>
    </tr>
    <![if supportMisalignedColumns]>
     <tr width="0" style='display:none;'>
-     <td width="150" style='width:150;'></td>
-     <td width="72" style='width:72;'></td>
-     <td width="51" style='width:51;'></td>
+     <td width="48" style='width:48;'></td>
+     <td width="131" style='width:131;'></td>
+     <td width="62" style='width:62;'></td>
+     <td width="65" style='width:65;'></td>
+     <td width="45" style='width:45;'></td>
     </tr>
    <![endif]>
   </table>
