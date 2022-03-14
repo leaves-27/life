@@ -17,13 +17,29 @@
     <x:WorksheetOptions>
      <x:DefaultRowHeight>352</x:DefaultRowHeight>
      <x:StandardWidth>2336</x:StandardWidth>
-     <x:TopRowVisible>22</x:TopRowVisible>
+     <x:Selected/>
+     <x:FreezePanes/>
+     <x:FrozenNoSplit/>
+     <x:SplitHorizontal>2</x:SplitHorizontal>
+     <x:TopRowBottomPane>2</x:TopRowBottomPane>
+     <x:SplitVertical>3</x:SplitVertical>
+     <x:LeftColumnRightPane>4</x:LeftColumnRightPane>
+     <x:ActivePane>0</x:ActivePane>
      <x:Panes>
       <x:Pane>
+       <x:Number>0</x:Number>
+       <x:ActiveCol>13</x:ActiveCol>
+       <x:ActiveRow>8</x:ActiveRow>
+       <x:RangeSelection>N9</x:RangeSelection>
+      </x:Pane>
+      <x:Pane>
+       <x:Number>1</x:Number>
+      </x:Pane>
+      <x:Pane>
+       <x:Number>2</x:Number>
+      </x:Pane>
+      <x:Pane>
        <x:Number>3</x:Number>
-       <x:ActiveCol>3</x:ActiveCol>
-       <x:ActiveRow>20</x:ActiveRow>
-       <x:RangeSelection>D21</x:RangeSelection>
       </x:Pane>
      </x:Panes>
      <x:ProtectContents>False</x:ProtectContents>
@@ -44,220 +60,616 @@
 </script>
  </head>
  <body link="blue" vlink="purple">
-  <table width="522.55" border="0" cellpadding="0" cellspacing="0" style='width:522.55pt;border-collapse:collapse;table-layout:fixed;'>
+  <table width="1637.85" border="0" cellpadding="0" cellspacing="0" style='width:1637.85pt;border-collapse:collapse;table-layout:fixed;'>
    <col width="47.75" span="2" style='mso-width-source:userset;mso-width-alt:2037;'/>
-   <col width="128.40" style='mso-width-source:userset;mso-width-alt:5478;'/>
-   <col width="298.65" class="xl65" style='mso-width-source:userset;mso-width-alt:12742;'/>
+   <col width="162.45" style='mso-width-source:userset;mso-width-alt:6931;'/>
+   <col width="109.95" style='mso-width-source:userset;mso-width-alt:4691;'/>
+   <col width="96.65" style='mso-width-source:userset;mso-width-alt:4123;'/>
+   <col width="91.65" span="2" style='mso-width-source:userset;mso-width-alt:3910;'/>
+   <col width="117.45" style='mso-width-source:userset;mso-width-alt:5011;'/>
+   <col width="77.50" style='mso-width-source:userset;mso-width-alt:3306;'/>
+   <col width="52.50" style='mso-width-source:userset;mso-width-alt:2240;'/>
+   <col width="76.65" style='mso-width-source:userset;mso-width-alt:3270;'/>
+   <col width="57.45" style='mso-width-source:userset;mso-width-alt:2451;'/>
+   <col width="128.40" span="2" style='mso-width-source:userset;mso-width-alt:5478;'/>
+   <col width="351.65" class="xl65" style='mso-width-source:userset;mso-width-alt:15003;'/>
    <col width="71.80" style='mso-width-source:userset;mso-width-alt:3063;'/>
    <tr height="17.60" style='height:17.60pt;'>
-    <td class="xl66" height="17.60" width="47.75" style='height:17.60pt;width:47.75pt;' x:str>股票代码</td>
-    <td class="xl66" width="47.75" style='width:47.75pt;' x:str>股票简称</td>
-    <td class="xl66" width="128.40" style='width:128.40pt;' x:str>所属同花顺行业</td>
-    <td class="xl154" width="298.65" style='width:298.65pt;' x:str>细分行业</td>
+    <td class="xl154" height="45.60" width="47.75" rowspan="2" style='height:45.60pt;width:47.75pt;border-right:none;border-bottom:.5pt solid windowtext;' x:str>股票代码</td>
+    <td class="xl154" width="47.75" rowspan="2" style='width:47.75pt;border-right:none;border-bottom:.5pt solid windowtext;' x:str>股票简称</td>
+    <td class="xl154" width="162.45" rowspan="2" style='width:162.45pt;border-right:none;border-bottom:.5pt solid windowtext;' x:str>所属同花顺行业</td>
+    <td class="xl155" width="389.90" colspan="4" style='width:389.90pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>基本面</td>
+    <td class="xl128" width="324.10" colspan="4" style='width:324.10pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>技术面</td>
+    <td class="xl143" width="57.45" rowspan="2" style='width:57.45pt;border-right:.5pt solid windowtext;border-bottom:none;' x:str>得分</td>
+    <td class="xl146" width="128.40" rowspan="2" style='width:128.40pt;border-right:.5pt solid windowtext;border-bottom:none;' x:str>结论</td>
+    <td class="xl148" width="128.40" rowspan="2" style='width:128.40pt;border-right:.5pt solid windowtext;border-bottom:none;' x:str>更新时间</td>
+    <td class="xl162" width="351.65" rowspan="2" style='width:351.65pt;border-right:none;border-bottom:none;' x:str>细分行业</td>
+   </tr>
+   <tr height="28" style='height:28.00pt;'>
+    <td class="xl157" x:str>本季度利润增长速度</td>
+    <td class="xl158" x:str>本季度销售增长速度</td>
+    <td class="xl158" x:str>本季度利润率</td>
+    <td class="xl159" x:str>市盈率<font class="font6"><br/></font><font class="font6">(股票价格/每股收益)</font></td>
+    <td class="xl160" x:str>价格趋势是否已经掉头向上</td>
+    <td class="xl160" x:str>当日收盘价</td>
+    <td class="xl160" x:str>最低点价格</td>
+    <td class="xl160" x:str>相对价格强度</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002006.SZ</td>
     <td class="xl75" x:str>精功科技</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>高新技术设备-碳纤维设备、轻纺设备、新型建筑节能设备、太阳能光伏设<span style='display:none;'>备</span></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>高新技术设备-碳纤维设备、轻纺设备、新型建筑节能设备、太阳能光伏设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>600520.SH</td>
     <td class="xl75" x:str>文一科技</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>半导体集成电路封测设备、化学建材及精密工装模具、微电子设备、电力<span style='display:none;'>设备</span></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>半导体集成电路封测设备、化学建材及精密工装模具、微电子设备、电力设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl71" height="17.60" style='height:17.60pt;' x:str>002337.SZ</td>
     <td class="xl71" x:str>赛象科技</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>橡胶机械设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>橡胶机械设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>000856.SZ</td>
     <td class="xl75" x:str>冀东装备</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>水泥机械设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>水泥机械设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002833.SZ</td>
     <td class="xl75" x:str>弘亚数控</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>数控板式家具机械设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>数控板式家具机械设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>600330.SH</td>
     <td class="xl75" x:str>天通股份</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>电子材料、半导体显示专用设备、粉体材料设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>电子材料、半导体显示专用设备、粉体材料设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603011.SH</td>
     <td class="xl75" x:str>合锻智能</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>锻压机械、机床机器设备(色选机、液压机、机压机)</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>锻压机械、机床机器设备(色选机、液压机、机压机)</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603289.SH</td>
     <td class="xl75" x:str>泰瑞机器</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>注塑机</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>注塑机</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603081.SH</td>
     <td class="xl75" x:str>大丰实业</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>文化体育装备、轨道交通装备、数字艺术科技(舞台机械、座椅看台、装饰<span style='display:none;'>幕墙)</span></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>文化体育装备、轨道交通装备、数字艺术科技(舞台机械、座椅看台、装饰幕墙)</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002757.SZ</td>
     <td class="xl75" x:str>南兴股份</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>板式家具生成设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>板式家具生成设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603956.SH</td>
     <td class="xl75" x:str>威派格</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>水务行业智能硬件</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>水务行业智能硬件</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603656.SH</td>
     <td class="xl75" x:str>泰禾智能</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>智能检测分选、包装设备、工业机器人</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>智能检测分选、包装设备、工业机器人</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002595.SZ</td>
     <td class="xl75" x:str>豪迈科技</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>轮胎模具和零部件的铸造加工设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>轮胎模具和零部件的铸造加工设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603076.SH</td>
     <td class="xl75" x:str>乐惠国际</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>啤酒酿造设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>啤酒酿造设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002690.SZ</td>
     <td class="xl75" x:str>美亚光电</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>光电检测设备(色选机、口腔诊断机、工业检测机)</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>光电检测设备(色选机、口腔诊断机、工业检测机)</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002837.SZ</td>
     <td class="xl75" x:str>英维克</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>机房、机柜、客车空调、轨道交通列车空调等的精密温控设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>机房、机柜、客车空调、轨道交通列车空调等的精密温控设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002009.SZ</td>
     <td class="xl75" x:str>天奇股份</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>报废汽车的拆解设备、汽车智能装备、智能仓储、散料输送等智慧工业服<span style='display:none;'>务类智<font class="font6">能装备</font></span></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>报废汽车的拆解设备、汽车智能装备、智能仓储、散料输送等智慧工业服务类智<font class="font6">能装备</font></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603159.SH</td>
     <td class="xl75" x:str>上海亚虹</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>精密注塑模具</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>精密注塑模具</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002786.SZ</td>
     <td class="xl75" x:str>银宝山新</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>大型精密注塑模具</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>大型精密注塑模具</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002111.SZ</td>
     <td class="xl75" x:str>威海广泰</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl154" x:str>空港、地面设备</td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl166" x:str>空港、地面设备</td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603855.SH</td>
     <td class="xl75" x:str>华荣股份</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002816.SZ</td>
     <td class="xl75" x:str>和科达</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>600501.SH</td>
     <td class="xl75" x:str>航天晨光</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603029.SH</td>
     <td class="xl75" x:str>天鹅股份</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>600499.SH</td>
     <td class="xl75" x:str>科达制造</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl69" height="17.60" style='height:17.60pt;' x:str>002779.SZ</td>
     <td class="xl69" x:str>中坚科技</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>600444.SH</td>
     <td class="xl75" x:str>国机通用</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002031.SZ</td>
     <td class="xl75" x:str>巨轮智能</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>600579.SH</td>
     <td class="xl75" x:str>克劳斯</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002073.SZ</td>
     <td class="xl75" x:str>软控股份</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>002529.SZ</td>
     <td class="xl75" x:str>海源复材</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>603895.SH</td>
     <td class="xl75" x:str>天永智能</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <tr height="17.60" style='height:17.60pt;'>
     <td class="xl75" height="17.60" style='height:17.60pt;' x:str>605259.SH</td>
     <td class="xl75" x:str>绿田机械</td>
-    <td class="xl75" x:str>机械设备-专用设备-其他专用设<span style='display:none;'>备</span></td>
-    <td class="xl65"></td>
+    <td class="xl75" x:str>机械设备-专用设备-其他专用设备</td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl81"></td>
+    <td class="xl167"></td>
    </tr>
    <![if supportMisalignedColumns]>
     <tr width="0" style='display:none;'>
      <td width="48" style='width:48;'></td>
+     <td width="162" style='width:162;'></td>
+     <td width="110" style='width:110;'></td>
+     <td width="97" style='width:97;'></td>
+     <td width="92" style='width:92;'></td>
+     <td width="117" style='width:117;'></td>
+     <td width="78" style='width:78;'></td>
+     <td width="53" style='width:53;'></td>
+     <td width="77" style='width:77;'></td>
+     <td width="57" style='width:57;'></td>
      <td width="128" style='width:128;'></td>
-     <td width="299" style='width:299;'></td>
+     <td width="352" style='width:352;'></td>
      <td width="72" style='width:72;'></td>
     </tr>
    <![endif]>
