@@ -6,7 +6,7 @@ col
 	mso-ruby-visibility:none;}
 br
 	{mso-data-placement:same-cell;}
-.font3
+.font4
 	{color:#000000;
 	font-size:9.0pt;
 	font-weight:400;
@@ -21,15 +21,12 @@ br
 	vertical-align:middle;
 	white-space:nowrap;
 	mso-rotate:0;
-	mso-pattern:auto;
-	mso-background-source:auto;
 	color:#000000;
 	font-size:12.0pt;
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	border:none;
 	mso-protection:locked visible;
@@ -44,7 +41,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"60% - 强调文字颜色 6";}
 .style17
@@ -56,7 +52,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"20% - 强调文字颜色 4";}
 .style18
@@ -68,7 +63,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"强调文字颜色 4";}
 .style19
@@ -80,7 +74,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border:.5pt solid #7F7F7F;
 	mso-style-name:"输入";}
@@ -93,7 +86,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"40% - 强调文字颜色 3";}
 .style21
@@ -105,11 +97,10 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"20% - 强调文字颜色 3";}
 .style22
-	{mso-number-format:"_ \0022\00A5\0022* \#\,\#\#0\.00_ \;_ \0022\00A5\0022* \\-\#\,\#\#0\.00_ \;_ \0022\00A5\0022* \0022-\0022??_ \;_ \@_ ";
+	{mso-number-format:"_ \\¥* \#\,\#\#0\.00_ \;_ \\¥* \\-\#\,\#\#0\.00_ \;_ \\¥* \0022-\0022??_ \;_ \@_ ";
 	mso-style-name:"货币";
 	mso-style-id:4;}
 .style23
@@ -121,7 +112,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"强调文字颜色 3";}
 .style24
@@ -137,7 +127,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"60% - 强调文字颜色 2";}
 .style26
@@ -149,7 +138,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"60% - 强调文字颜色 5";}
 .style27
@@ -161,7 +149,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"强调文字颜色 2";}
 .style28
@@ -173,7 +160,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"60% - 强调文字颜色 1";}
 .style29
@@ -185,7 +171,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"60% - 强调文字颜色 4";}
 .style30
@@ -197,7 +182,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border:.5pt solid #7F7F7F;
 	mso-style-name:"计算";}
@@ -210,7 +194,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"强调文字颜色 1";}
 .style32
@@ -222,7 +205,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"适中";}
 .style33
@@ -234,7 +216,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"20% - 强调文字颜色 5";}
 .style34
@@ -246,7 +227,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"好";}
 .style35
@@ -258,7 +238,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"20% - 强调文字颜色 1";}
 .style36
@@ -268,7 +247,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border-top:.5pt solid #5B9BD5;
 	border-bottom:2.0pt double #5B9BD5;
@@ -282,7 +260,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"差";}
 .style38
@@ -294,7 +271,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border:2.0pt double #3F3F3F;
 	mso-style-name:"检查单元格";}
@@ -307,7 +283,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border:.5pt solid #3F3F3F;
 	mso-style-name:"输出";}
@@ -318,7 +293,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	border-bottom:1.0pt solid #5B9BD5;
 	mso-style-name:"标题 1";}
@@ -329,7 +303,6 @@ br
 	font-style:italic;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"解释性文本";}
 .style42
@@ -341,7 +314,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"20% - 强调文字颜色 2";}
 .style43
@@ -351,11 +323,10 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	mso-style-name:"标题 4";}
 .style44
-	{mso-number-format:"_ \0022\00A5\0022* \#\,\#\#0_ \;_ \0022\00A5\0022* \\-\#\,\#\#0_ \;_ \0022\00A5\0022* \0022-\0022_ \;_ \@_ ";
+	{mso-number-format:"_ \\¥* \#\,\#\#0_ \;_ \\¥* \\-\#\,\#\#0_ \;_ \\¥* \0022-\0022_ \;_ \@_ ";
 	mso-style-name:"货币[0]";
 	mso-style-id:7;}
 .style45
@@ -367,7 +338,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"40% - 强调文字颜色 4";}
 .style46
@@ -389,7 +359,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	mso-style-name:"标题";}
 .style49
@@ -401,7 +370,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"40% - 强调文字颜色 2";}
 .style50
@@ -411,7 +379,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"警告文本";}
 .style51
@@ -423,7 +390,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"60% - 强调文字颜色 3";}
 .style52
@@ -440,7 +406,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"20% - 强调文字颜色 6";}
 .style54
@@ -452,7 +417,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"强调文字颜色 5";}
 .style55
@@ -464,7 +428,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"40% - 强调文字颜色 6";}
 .style56
@@ -486,7 +449,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	border-bottom:1.0pt solid #5B9BD5;
 	mso-style-name:"标题 2";}
@@ -499,7 +461,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"40% - 强调文字颜色 5";}
 .style60
@@ -509,7 +470,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	border-bottom:1.0pt solid #ACCCEA;
 	mso-style-name:"标题 3";}
@@ -522,7 +482,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"强调文字颜色 6";}
 .style62
@@ -534,7 +493,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	mso-style-name:"40% - 强调文字颜色 1";}
 .style63
@@ -544,7 +502,6 @@ br
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:0;
 	border-bottom:2.0pt double #FF8001;
 	mso-style-name:"链接单元格";}
@@ -559,15 +516,12 @@ td
 	vertical-align:middle;
 	white-space:nowrap;
 	mso-rotate:0;
-	mso-pattern:auto;
-	mso-background-source:auto;
 	color:#000000;
 	font-size:12.0pt;
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
 	font-family:宋体;
-	mso-generic-font-family:auto;
 	mso-font-charset:134;
 	border:none;
 	mso-protection:locked visible;}
@@ -593,20 +547,16 @@ td
 	border:1.0pt solid #1C7A80;}
 .xl67
 	{mso-style-parent:style0;
-	text-align:center;
-	mso-font-charset:134;}
-.xl68
-	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
 	mso-font-charset:134;}
-.xl69
+.xl68
 	{mso-style-parent:style24;
 	mso-number-format:"0\.00%";
 	text-align:center;}
-.xl70
+.xl69
 	{mso-style-parent:style24;
 	mso-number-format:"0\.00%";}
-.xl71
+.xl70
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
@@ -617,36 +567,22 @@ td
 	font-weight:700;
 	font-family:Arial;
 	mso-font-charset:134;
-	border-left:.5pt solid windowtext;
-	border-top:.5pt solid windowtext;
-	border-right:.5pt solid windowtext;}
+	border:.5pt solid windowtext;}
+.xl71
+	{mso-style-parent:style0;
+	text-align:center;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
 .xl72
 	{mso-style-parent:style0;
 	text-align:center;
-	mso-font-charset:134;
-	border-left:.5pt solid windowtext;
-	border-top:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;}
-.xl76
-	{mso-style-parent:style0;
-	text-align:center;
 	white-space:normal;
 	color:#152122;
 	font-size:9.0pt;
 	font-family:Arial;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl77
-	{mso-style-parent:style0;
-	mso-number-format:"0\.00";
-	text-align:center;
-	white-space:normal;
-	color:#152122;
-	font-size:9.0pt;
-	font-family:Arial;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl78
+.xl73
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
@@ -657,7 +593,17 @@ td
 	font-family:Arial;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl80
+.xl74
+	{mso-style-parent:style0;
+	mso-number-format:"0\.00";
+	text-align:center;
+	white-space:normal;
+	color:#152122;
+	font-size:9.0pt;
+	font-family:Arial;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl75
 	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
 	text-align:center;
@@ -667,18 +613,12 @@ td
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl81
+.xl76
 	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl82
-	{mso-style-parent:style0;
-	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
-	text-align:center;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl85
+.xl77
 	{mso-style-parent:style24;
 	mso-number-format:"0\.00%";
 	text-align:center;
@@ -687,12 +627,12 @@ td
 	background:#FFC000;
 	font-size:9.0pt;
 	border:.5pt solid windowtext;}
-.xl86
+.xl78
 	{mso-style-parent:style24;
 	mso-number-format:"0\.00%";
 	text-align:center;
 	border:.5pt solid windowtext;}
-.xl87
+.xl79
 	{mso-style-parent:style0;
 	mso-number-format:"0_ ";
 	text-align:center;
@@ -702,7 +642,7 @@ td
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl88
+.xl80
 	{mso-style-parent:style0;
 	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
 	text-align:center;
@@ -712,16 +652,11 @@ td
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl89
+.xl81
 	{mso-style-parent:style0;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl90
-	{mso-style-parent:style0;
-	text-align:center;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl91
+.xl82
 	{mso-style-parent:style24;
 	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
 	text-align:center;
@@ -730,7 +665,7 @@ td
 	background:#FFFFFF;
 	font-size:9.0pt;
 	border:.5pt solid windowtext;}
-.xl93
+.xl83
 	{mso-style-parent:style0;
 	mso-number-format:"\@";
 	text-align:center;
@@ -740,20 +675,11 @@ td
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl94
-	{mso-style-parent:style24;
-	mso-number-format:"0\.00%";
-	text-align:center;
-	white-space:normal;
-	mso-pattern:auto none;
-	background:#FFC000;
-	font-size:9.0pt;
-	border:.5pt solid windowtext;}
-.xl95
+.xl84
 	{mso-style-parent:style24;
 	mso-number-format:"0\.00%";
 	border:.5pt solid windowtext;}
-.xl96
+.xl85
 	{mso-style-parent:style0;
 	text-align:center;
 	white-space:normal;
@@ -762,7 +688,7 @@ td
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl97
+.xl86
 	{mso-style-parent:style0;
 	mso-number-format:"\@";
 	text-align:center;
@@ -772,7 +698,7 @@ td
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl98
+.xl87
 	{mso-style-parent:style0;
 	text-align:center;
 	mso-pattern:auto none;
@@ -780,7 +706,7 @@ td
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
-.xl99
+.xl88
 	{mso-style-parent:style0;
 	mso-number-format:"yyyy/mm/dd";
 	text-align:center;
