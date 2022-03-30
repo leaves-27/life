@@ -33,6 +33,15 @@ br
 	font-family:"宋体";
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
+.font8
+	{color:#000000;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
 .style0
 	{mso-number-format:"General";
 	text-align:general;
@@ -1245,19 +1254,19 @@ td
 	border:.5pt solid windowtext;}
 .xl153
 	{mso-style-parent:style0;
+	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#92D050;
+	background:#FFFF00;
+	color:windowtext;
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl154
 	{mso-style-parent:style0;
-	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#00B050;
-	color:windowtext;
+	background:#92D050;
 	font-size:9.0pt;
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
@@ -1266,7 +1275,7 @@ td
 	mso-number-format:"0\.00_\)\;\[Red\]\\\(0\.00\\\)";
 	text-align:center;
 	mso-pattern:auto none;
-	background:#FFFF00;
+	background:#00B050;
 	color:windowtext;
 	font-size:9.0pt;
 	mso-font-charset:134;
@@ -1679,15 +1688,6 @@ td
 	mso-font-charset:134;
 	border:.5pt solid windowtext;}
 .xl201
-	{mso-style-parent:style0;
-	mso-number-format:"yyyy/mm/dd";
-	text-align:center;
-	mso-pattern:auto none;
-	background:#FFFF00;
-	font-size:9.0pt;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl202
 	{mso-style-parent:style0;
 	mso-number-format:"yyyy/mm/dd";
 	text-align:center;
