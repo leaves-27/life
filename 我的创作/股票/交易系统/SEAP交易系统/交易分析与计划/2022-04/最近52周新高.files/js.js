@@ -1,10 +1,8 @@
-var c_lTabs=5;
+var c_lTabs=3;
 var c_rgszSh=new Array(c_lTabs);
 c_rgszSh[0]="最近52周新高";
 c_rgszSh[1]="Sheet1";
 c_rgszSh[2]="Sheet2";
-c_rgszSh[3]="Sheet3";
-c_rgszSh[4]="Sheet4";
 var g_iShCur=2;
 var g_rglTabX=new Array(c_lTabs+1);
 var g_clrs=new Array(8);
