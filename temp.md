@@ -57,8 +57,7 @@
 根据应用存在的形式：web、native和web和native的混合、服务端的形式、小程序。
 根据交互复杂度(5)：静态展示页面或图表、交互表单、动画、动态图表、游戏。
 
-1.脚手架----最佳实践。
-
+1.脚手架----最佳实践
 2.构建工具：webpack、vite
 3.包管理工具:
 4.代码版本管理工具:
@@ -67,11 +66,12 @@
   (2)vant、ant-design、ElementUI;
   (3)WeUI
   (4)axios、underscore
-  
+6.调试工具：charles、findler、chrome开发者工具、erdua、vconsole
 5.编码语言：
   (1)Ejs、Jade: 
   (2)Vue、React、Angular:
   (3)Typescript、CoffeScript:
+
 # 一般业务开发步骤
 1.熟悉业务逻辑：弄清楚业务的构成部分、流转关系以及其中的难易点。
 2.输出数据接口抽象、组件拆分、辅助类库的抽象文档。
