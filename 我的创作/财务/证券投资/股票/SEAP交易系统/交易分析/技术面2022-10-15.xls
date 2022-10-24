@@ -7,7 +7,7 @@
    <xml>
     <o:DocumentProperties>
      <o:Created>2022-10-15T06:27:24</o:Created>
-     <o:LastSaved>2022-10-20T22:29:18</o:LastSaved>
+     <o:LastSaved>2022-10-24T07:40:17</o:LastSaved>
     </o:DocumentProperties>
     <o:CustomDocumentProperties>
      <o:KSOProductBuildVer dt:dt="string">2052-3.9.3.6359</o:KSOProductBuildVer>
@@ -154,33 +154,6 @@ br
 	mso-generic-font-family:auto;
 	mso-font-charset:0;}
 .font14
-	{color:#FFFFFF;
-	font-size:11.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:0;}
-.font15
-	{color:#FF0000;
-	font-size:11.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:0;}
-.font16
-	{color:#44546A;
-	font-size:18.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font17
 	{color:#800080;
 	font-size:12.0pt;
 	font-weight:400;
@@ -190,9 +163,37 @@ br
 	font-family:"宋体";
 	mso-generic-font-family:auto;
 	mso-font-charset:134;}
+.font15
+	{color:#0000FF;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font16
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font17
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
 .font18
 	{color:#44546A;
-	font-size:15.0pt;
+	font-size:11.0pt;
 	font-weight:700;
 	font-style:normal;
 	text-decoration:none;
@@ -218,79 +219,6 @@ br
 	mso-generic-font-family:auto;
 	mso-font-charset:0;}
 .font21
-	{color:#FFFFFF;
-	font-size:11.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:0;}
-.font22
-	{color:#9C0006;
-	font-size:11.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:0;}
-.font23
-	{color:#000000;
-	font-size:11.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:0;}
-.font24
-	{color:#44546A;
-	font-size:11.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font25
-	{color:#0000FF;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:underline;
-	text-underline-style:single;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font26
-	{color:#006100;
-	font-size:11.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:0;}
-.font27
-	{color:#9C6500;
-	font-size:11.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:0;}
-.font28
-	{color:#44546A;
-	font-size:13.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"宋体";
-	mso-generic-font-family:auto;
-	mso-font-charset:134;}
-.font29
 	{color:#3F3F76;
 	font-size:11.0pt;
 	font-weight:400;
@@ -299,10 +227,82 @@ br
 	font-family:"宋体";
 	mso-generic-font-family:auto;
 	mso-font-charset:0;}
-.font30
+.font22
+	{color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font23
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font24
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font25
 	{color:#FA7D00;
 	font-size:11.0pt;
 	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font26
+	{color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font27
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font28
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font29
+	{color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font30
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
 	font-family:"宋体";
@@ -1107,25 +1107,13 @@ td
 	font-size:9.0pt;
 	border:.5pt solid windowtext;}
 .xl101
-	{mso-style-parent:style0;
-	text-align:center;
-	white-space:normal;
-	mso-pattern:auto none;
-	background:#C00000;
-	color:#152122;
-	font-size:9.0pt;
-	font-family:方正书宋_GBK;
-	mso-generic-font-family:auto;
-	mso-font-charset:134;
-	border:.5pt solid windowtext;}
-.xl102
 	{mso-style-parent:style24;
 	mso-number-format:"0\.00%";
 	text-align:center;
 	color:windowtext;
 	font-size:9.0pt;
 	border:.5pt solid windowtext;}
-.xl103
+.xl102
 	{mso-style-parent:style24;
 	mso-number-format:"0\.00%";
 	text-align:center;
@@ -1146,16 +1134,16 @@ td
         <x:FreezePanes/>
         <x:FrozenNoSplit/>
         <x:SplitHorizontal>3</x:SplitHorizontal>
-        <x:TopRowBottomPane>208</x:TopRowBottomPane>
+        <x:TopRowBottomPane>3</x:TopRowBottomPane>
         <x:SplitVertical>2</x:SplitVertical>
-        <x:LeftColumnRightPane>5</x:LeftColumnRightPane>
+        <x:LeftColumnRightPane>2</x:LeftColumnRightPane>
         <x:ActivePane>0</x:ActivePane>
         <x:Panes>
          <x:Pane>
           <x:Number>0</x:Number>
-          <x:ActiveCol>14</x:ActiveCol>
-          <x:ActiveRow>1</x:ActiveRow>
-          <x:RangeSelection>O2:AG2</x:RangeSelection>
+          <x:ActiveCol>1</x:ActiveCol>
+          <x:ActiveRow>4</x:ActiveRow>
+          <x:RangeSelection>B5</x:RangeSelection>
          </x:Pane>
          <x:Pane>
           <x:Number>1</x:Number>
@@ -1194,36 +1182,36 @@ td
   <![endif]-->
  </head>
  <body link="blue" vlink="purple">
-  <table width="1443.90" border="0" cellpadding="0" cellspacing="0" style='width:1443.90pt;border-collapse:collapse;table-layout:fixed;'>
-   <col width="36.60" style='mso-width-source:userset;mso-width-alt:1561;'/>
-   <col width="31.85" style='mso-width-source:userset;mso-width-alt:1358;'/>
-   <col width="69.50" style='mso-width-source:userset;mso-width-alt:2965;'/>
-   <col width="64.45" style='mso-width-source:userset;mso-width-alt:2749;'/>
-   <col width="67.90" style='mso-width-source:userset;mso-width-alt:2897;'/>
-   <col width="41.60" style='mso-width-source:userset;mso-width-alt:1774;'/>
-   <col width="31.50" span="3" class="xl65" style='mso-width-source:userset;mso-width-alt:1344;'/>
-   <col width="31.50" span="3" style='mso-width-source:userset;mso-width-alt:1344;'/>
-   <col width="33.70" style='mso-width-source:userset;mso-width-alt:1437;'/>
-   <col width="33.70" class="xl65" style='mso-width-source:userset;mso-width-alt:1437;'/>
-   <col width="31.50" span="5" class="xl65" style='mso-width-source:userset;mso-width-alt:1344;'/>
-   <col width="33.70" span="9" style='mso-width-source:userset;mso-width-alt:1437;'/>
-   <col width="44.10" class="xl66" style='mso-width-source:userset;mso-width-alt:1881;'/>
-   <col width="33.70" span="11" style='mso-width-source:userset;mso-width-alt:1437;'/>
+  <table width="1347.45" border="0" cellpadding="0" cellspacing="0" style='width:1347.45pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="34.15" style='mso-width-source:userset;mso-width-alt:1457;'/>
+   <col width="29.70" style='mso-width-source:userset;mso-width-alt:1267;'/>
+   <col width="64.85" style='mso-width-source:userset;mso-width-alt:2766;'/>
+   <col width="60.15" style='mso-width-source:userset;mso-width-alt:2566;'/>
+   <col width="63.35" style='mso-width-source:userset;mso-width-alt:2702;'/>
+   <col width="38.80" style='mso-width-source:userset;mso-width-alt:1655;'/>
+   <col width="29.40" span="3" class="xl65" style='mso-width-source:userset;mso-width-alt:1254;'/>
+   <col width="29.40" span="3" style='mso-width-source:userset;mso-width-alt:1254;'/>
+   <col width="31.45" style='mso-width-source:userset;mso-width-alt:1341;'/>
+   <col width="31.45" class="xl65" style='mso-width-source:userset;mso-width-alt:1341;'/>
+   <col width="29.40" span="5" class="xl65" style='mso-width-source:userset;mso-width-alt:1254;'/>
+   <col width="31.45" span="9" style='mso-width-source:userset;mso-width-alt:1341;'/>
+   <col width="41.15" class="xl66" style='mso-width-source:userset;mso-width-alt:1755;'/>
+   <col width="31.45" span="11" style='mso-width-source:userset;mso-width-alt:1341;'/>
    <tr height="45" style='height:45.00pt;'>
-    <td class="xl67" height="45" width="36.60" x:autofilter="all" x:autofilterrange="$A$1:B217" style='height:45.00pt;width:36.60pt;' x:str>股票代码</td>
-    <td class="xl68" width="31.85" x:autofilter="all" style='width:31.85pt;' x:str>股票简称</td>
-    <td class="xl67" width="69.50" style='width:69.50pt;' x:str>行情收盘价 [1]2022.10.14</td>
-    <td class="xl67" width="64.45" style='width:64.45pt;' x:str>50日均线 [2]2022.10.14</td>
-    <td class="xl67" width="67.90" style='width:67.90pt;' x:str>150日均线 [3]2022.10.14</td>
-    <td class="xl67" width="41.60" style='width:41.60pt;' x:str>200日均线 [4]2022.10.14</td>
-    <td class="xl76" width="189" colspan="6" style='width:189.00pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;'></td>
-    <td class="xl84" width="33.70" rowspan="3" style='width:33.70pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>当前股价位置属于趋势的周期<font class="font8"><br/></font><font class="font8">（即数基地，1到2的时候进入，3到5应该考虑卖出）</font></td>
-    <td class="xl84" width="33.70" rowspan="3" style='width:33.70pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>最近一年最高点是否新高</td>
-    <td class="xl85" width="639.70" colspan="19" style='width:639.70pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>价格波动收缩幅度</td>
-    <td class="xl93" width="101.10" colspan="3" style='width:101.10pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>价格行为<font class="font8"><br/></font><font class="font8">(得分应大于60%)</font></td>
-    <td class="xl93" width="67.40" colspan="2" style='width:67.40pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>成交量行为</td>
-    <td class="xl95" width="33.70" rowspan="3" style='width:33.70pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>结论</td>
-    <td class="xl96" width="33.70" rowspan="3" style='width:33.70pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>更新时间</td>
+    <td class="xl67" height="45" width="34.15" x:autofilter="all" x:autofilterrange="$A$1:B217" style='height:45.00pt;width:34.15pt;' x:str>股票代码</td>
+    <td class="xl68" width="29.70" x:autofilter="all" style='width:29.70pt;' x:str>股票简称</td>
+    <td class="xl67" width="64.85" style='width:64.85pt;' x:str>行情收盘价 [1]2022.10.14</td>
+    <td class="xl67" width="60.15" style='width:60.15pt;' x:str>50日均线 [2]2022.10.14</td>
+    <td class="xl67" width="63.35" style='width:63.35pt;' x:str>150日均线 [3]2022.10.14</td>
+    <td class="xl67" width="38.80" style='width:38.80pt;' x:str>200日均线 [4]2022.10.14</td>
+    <td class="xl76" width="176.40" colspan="6" style='width:176.40pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;'></td>
+    <td class="xl84" width="31.45" rowspan="3" style='width:31.45pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>当前股价位置属于趋势的周期<font class="font8"><br/></font><font class="font8">（即数基地，1到2的时候进入，3到5应该考虑卖出）</font></td>
+    <td class="xl84" width="31.45" rowspan="3" style='width:31.45pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>最近一年最高点是否新高</td>
+    <td class="xl85" width="597" colspan="19" style='width:597.00pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>价格波动收缩幅度</td>
+    <td class="xl93" width="94.35" colspan="3" style='width:94.35pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>价格行为<font class="font8"><br/></font><font class="font8">(得分应大于60%)</font></td>
+    <td class="xl93" width="62.90" colspan="2" style='width:62.90pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>成交量行为</td>
+    <td class="xl95" width="31.45" rowspan="3" style='width:31.45pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>结论</td>
+    <td class="xl96" width="31.45" rowspan="3" style='width:31.45pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>更新时间</td>
    </tr>
    <tr height="109" style='height:109.00pt;mso-height-source:userset;mso-height-alt:2180;'>
     <td class="xl69" height="109" style='height:109.00pt;'></td>
@@ -3337,16 +3325,16 @@ td
     <td class="xl72" x:num>21.29</td>
     <td class="xl72" x:num>18.81</td>
     <td class="xl72" x:num>17.79</td>
-    <td class="xl79" x:num>11.35</td>
-    <td class="xl79" x:num>25.86</td>
-    <td class="xl79" x:num>16.18</td>
+    <td class="xl79" x:num="11.35">11.4</td>
+    <td class="xl79" x:num="25.859999999999999">25.9</td>
+    <td class="xl79" x:num="16.18">16.2</td>
     <td class="xl82" x:fmla="=(C53-G53)/G53" x:num="0.94713656387665213">94.71%</td>
     <td class="xl82" x:fmla="=(H53-C53)/H53" x:num="0.14539829853054903">14.54%</td>
     <td class="xl83" x:fmla="=(H53-I53)/I53" x:num="0.59826946847960449">59.83%</td>
     <td class="xl81"></td>
     <td class="xl79" x:str>否</td>
-    <td class="xl79" x:num>17.67</td>
-    <td class="xl86" align="right" x:num>24.22</td>
+    <td class="xl79" x:num="17.670000000000002">17.7</td>
+    <td class="xl86" align="right" x:num="24.219999999999999">24.2</td>
     <td class="xl79" x:num>19.4</td>
     <td class="xl78"></td>
     <td class="xl78"></td>
@@ -4219,16 +4207,16 @@ td
     <td class="xl72" x:num>12.57</td>
     <td class="xl72" x:num>11.51</td>
     <td class="xl79" x:num>6.75</td>
-    <td class="xl79" x:num>16.37</td>
-    <td class="xl79" x:num>10.73</td>
+    <td class="xl79" x:num="16.370000000000001">16.4</td>
+    <td class="xl79" x:num="10.73">10.7</td>
     <td class="xl82" x:fmla="=(C74-G74)/G74" x:num="0.98370370370370375">98.37%</td>
     <td class="xl82" x:fmla="=(H74-C74)/H74" x:num="0.18204031765424558">18.20%</td>
     <td class="xl83" x:fmla="=(H74-I74)/I74" x:num="0.52562907735321529">52.56%</td>
     <td class="xl81"></td>
     <td class="xl79" x:str>否</td>
-    <td class="xl79" x:num>10.86</td>
-    <td class="xl79" x:num>15.71</td>
-    <td class="xl79" x:num>12.38</td>
+    <td class="xl79" x:num="10.859999999999999">10.9</td>
+    <td class="xl79" x:num="15.710000000000001">15.7</td>
+    <td class="xl79" x:num="12.380000000000001">12.4</td>
     <td class="xl78"></td>
     <td class="xl78"></td>
     <td></td>
@@ -4722,8 +4710,8 @@ td
     <td class="xl72" x:num>57.35</td>
     <td class="xl72" x:num>38.94</td>
     <td class="xl72" x:num>35.49</td>
-    <td class="xl79" x:num>16.88</td>
-    <td class="xl79" x:num>77.81</td>
+    <td class="xl79" x:num="16.879999999999999">16.9</td>
+    <td class="xl79" x:num="77.810000000000002">77.8</td>
     <td class="xl79" x:num>31.8</td>
     <td class="xl82" x:fmla="=(C86-G86)/G86" x:num="2.4040284360189572">240.40%</td>
     <td class="xl83" x:fmla="=(H86-C86)/H86" x:num="0.26153450713275928">26.15%</td>
@@ -4974,15 +4962,15 @@ td
     <td class="xl72" x:num="54.899999999999999">54.90</td>
     <td class="xl72" x:num>44.91</td>
     <td class="xl72" x:num>41.25</td>
-    <td class="xl79" x:num>23.63</td>
-    <td class="xl79" x:num>67.79</td>
-    <td class="xl79" x:num>40.62</td>
+    <td class="xl79" x:num="23.629999999999999">23.6</td>
+    <td class="xl79" x:num="67.790000000000006">67.8</td>
+    <td class="xl79" x:num="40.619999999999997">40.6</td>
     <td class="xl82" x:fmla="=(C92-G92)/G92" x:num="1.5581887431231489">155.82%</td>
     <td class="xl82" x:fmla="=(H92-C92)/H92" x:num="0.10827555686679455">10.83%</td>
     <td class="xl83" x:fmla="=(H92-I92)/I92" x:num="0.66888232397833602">66.89%</td>
     <td class="xl81"></td>
     <td class="xl98" x:str>是</td>
-    <td class="xl79" x:num>48.15</td>
+    <td class="xl79" x:num="48.149999999999999">48.2</td>
     <td class="xl78"></td>
     <td class="xl78"></td>
     <td class="xl78"></td>
@@ -5646,15 +5634,15 @@ td
     <td class="xl72" x:num>20.53</td>
     <td class="xl72" x:num>18.48</td>
     <td class="xl72" x:num>18.07</td>
-    <td class="xl79" x:num>13.16</td>
+    <td class="xl79" x:num="13.16">13.2</td>
     <td class="xl79" x:num>30.8</td>
-    <td class="xl79" x:num>17.72</td>
+    <td class="xl79" x:num="17.719999999999999">17.7</td>
     <td class="xl82" x:fmla="=(C108-G108)/G108" x:num="0.85866261398176291">85.87%</td>
     <td class="xl82" x:fmla="=(H108-C108)/H108" x:num="0.20584415584415583">20.58%</td>
     <td class="xl83" x:fmla="=(H108-I108)/I108" x:num="0.73814898419864572">73.81%</td>
     <td class="xl81"></td>
     <td class="xl98" x:str>是</td>
-    <td class="xl79" x:num>23.15</td>
+    <td class="xl79" x:num="23.149999999999999">23.2</td>
     <td class="xl78"></td>
     <td class="xl78"></td>
     <td class="xl78"></td>
@@ -5772,7 +5760,7 @@ td
     <td class="xl72" x:num>78.11</td>
     <td class="xl72" x:num>67.83</td>
     <td class="xl72" x:num>61.68</td>
-    <td class="xl79" x:num>36.37</td>
+    <td class="xl79" x:num="36.369999999999997">36.4</td>
     <td class="xl79" x:num>90.2</td>
     <td class="xl79" x:num>62.1</td>
     <td class="xl82" x:fmla="=(C111-G111)/G111" x:num="1.1624965631014577">116.25%</td>
@@ -5780,11 +5768,10 @@ td
     <td class="xl83" x:fmla="=(H111-I111)/I111" x:num="0.45249597423510468">45.25%</td>
     <td class="xl81"></td>
     <td class="xl98" x:str>是</td>
-    <td class="xl79" x:num>70.55</td>
-    <td class="xl79" x:num>84.62</td>
+    <td class="xl79" x:num="70.549999999999997">70.6</td>
+    <td class="xl79" x:num="84.620000000000005">84.6</td>
     <td class="xl79" x:num>75</td>
-    <td class="xl65"></td>
-    <td class="xl65"></td>
+    <td class="xl65" colspan="2" style='mso-ignore:colspan;'></td>
     <td class="xl81"></td>
     <td class="xl81"></td>
     <td class="xl81"></td>
@@ -6444,9 +6431,9 @@ td
     <td class="xl72" x:num="15.800000000000001">15.80</td>
     <td class="xl72" x:num>14.94</td>
     <td class="xl72" x:num>14.32</td>
-    <td class="xl79" x:num>10.91</td>
-    <td class="xl79" x:num>17.34</td>
-    <td class="xl79" x:num>15.38</td>
+    <td class="xl79" x:num="10.91">10.9</td>
+    <td class="xl79" x:num="17.34">17.3</td>
+    <td class="xl79" x:num="15.380000000000001">15.4</td>
     <td class="xl82" x:fmla="=(C127-G127)/G127" x:num="0.48395967002749779">48.40%</td>
     <td class="xl82" x:fmla="=(H127-C127)/H127" x:num="6.6320645905420916e-02">6.63%</td>
     <td class="xl83" x:fmla="=(H127-I127)/I127" x:num="0.12743823146944078">12.74%</td>
@@ -9804,16 +9791,16 @@ td
     <td class="xl72" x:num>37.54</td>
     <td class="xl72" x:num>27.95</td>
     <td class="xl72" x:num>26.01</td>
-    <td class="xl79" x:num>10.49</td>
+    <td class="xl79" x:num="10.49">10.5</td>
     <td class="xl79" x:num>44.6</td>
-    <td class="xl79" x:num>32.01</td>
+    <td class="xl79" x:num="32.009999999999998">32</td>
     <td class="xl83" x:fmla="=(C207-G207)/G207" x:num="2.6139180171591985">261.39%</td>
     <td class="xl83" x:fmla="=(H207-C207)/H207" x:num="0.15000000000000011">15.00%</td>
     <td class="xl83" x:fmla="=(H207-I207)/I207" x:num="0.39331458919087797">39.33%</td>
     <td class="xl81"></td>
     <td class="xl98" x:str>是</td>
-    <td class="xl79" x:num>32.72</td>
-    <td class="xl79" x:num>39.58</td>
+    <td class="xl79" x:num="32.719999999999999">32.7</td>
+    <td class="xl79" x:num="39.579999999999998">39.6</td>
     <td class="xl79" x:num>33</td>
     <td class="xl78"></td>
     <td class="xl78"></td>
@@ -9889,7 +9876,7 @@ td
     <td class="xl72" x:num>6.75</td>
     <td class="xl72" x:num>6.37</td>
     <td class="xl79" x:num>3.46</td>
-    <td class="xl79" x:num>10.75</td>
+    <td class="xl79" x:num="10.75">10.8</td>
     <td class="xl79" x:num>6.64</td>
     <td class="xl82" x:fmla="=(C209-G209)/G209" x:num="1.6156069364161851">161.56%</td>
     <td class="xl82" x:fmla="=(H209-C209)/H209" x:num="0.15813953488372087">15.81%</td>
@@ -10009,13 +9996,13 @@ td
    </tr>
    <tr height="23" style='height:23.00pt;'>
     <td class="xl74" height="23" style='height:23.00pt;' x:str>600996.SH</td>
-    <td class="xl101" x:str>贵广网络</td>
+    <td class="xl75" x:str>贵广网络</td>
     <td class="xl72" x:num>12.16</td>
     <td class="xl72" x:num>10.79</td>
     <td class="xl72" x:num>8.85</td>
     <td class="xl72" x:num>8.33</td>
     <td class="xl79" x:num>4.13</td>
-    <td class="xl79" x:num>13.81</td>
+    <td class="xl79" x:num="13.81">13.8</td>
     <td class="xl79" x:num>8.07</td>
     <td class="xl82" x:fmla="=(C212-G212)/G212" x:num="1.9443099273607751">194.43%</td>
     <td class="xl82" x:fmla="=(H212-C212)/H212" x:num="0.11947863866763217">11.95%</td>
@@ -10024,9 +10011,9 @@ td
     <td class="xl79" x:str>否</td>
     <td class="xl79" x:num>9.5</td>
     <td class="xl79" x:num>13.3</td>
-    <td class="xl79" x:num>10.87</td>
-    <td class="xl78" x:num>12.95</td>
-    <td class="xl78" x:num>11.13</td>
+    <td class="xl79" x:num="10.869999999999999">10.9</td>
+    <td class="xl79" x:num="12.949999999999999">13</td>
+    <td class="xl79" x:num="11.130000000000001">11.1</td>
     <td class="xl81"></td>
     <td class="xl81"></td>
     <td class="xl81"></td>
@@ -10036,7 +10023,7 @@ td
     <td class="xl81"></td>
     <td class="xl89" x:fmla="=(H212-O212)/H212" x:num="0.31209268645908766">31.21%</td>
     <td class="xl89" x:fmla="=(P212-Q212)/P212" x:num="0.18270676691729335">18.27%</td>
-    <td class="xl103" x:fmla="=(R212-S212)/R212" x:num="0.14054054054054044">14.05%</td>
+    <td class="xl102" x:fmla="=(R212-S212)/R212" x:num="0.14054054054054044">14.05%</td>
     <td class="xl81"></td>
     <td class="xl81"></td>
     <td class="xl81"></td>
@@ -10161,7 +10148,7 @@ td
     <td class="xl81"></td>
     <td class="xl81"></td>
     <td class="xl99" x:fmla="=(H215-O215)/H215" x:num="0.29599999999999993">29.60%</td>
-    <td class="xl102"></td>
+    <td class="xl101"></td>
     <td class="xl90"></td>
     <td class="xl81"></td>
     <td class="xl81"></td>
@@ -10261,20 +10248,20 @@ td
    </tr>
    <![if supportMisalignedColumns]>
     <tr width="0" style='display:none;'>
-     <td width="37" style='width:37;'></td>
-     <td width="32" style='width:32;'></td>
-     <td width="70" style='width:70;'></td>
-     <td width="64" style='width:64;'></td>
-     <td width="68" style='width:68;'></td>
-     <td width="42" style='width:42;'></td>
-     <td width="32" style='width:32;'></td>
-     <td width="32" style='width:32;'></td>
      <td width="34" style='width:34;'></td>
-     <td width="34" style='width:34;'></td>
-     <td width="32" style='width:32;'></td>
-     <td width="34" style='width:34;'></td>
-     <td width="44" style='width:44;'></td>
-     <td width="34" style='width:34;'></td>
+     <td width="30" style='width:30;'></td>
+     <td width="65" style='width:65;'></td>
+     <td width="60" style='width:60;'></td>
+     <td width="63" style='width:63;'></td>
+     <td width="39" style='width:39;'></td>
+     <td width="29" style='width:29;'></td>
+     <td width="29" style='width:29;'></td>
+     <td width="31" style='width:31;'></td>
+     <td width="31" style='width:31;'></td>
+     <td width="29" style='width:29;'></td>
+     <td width="31" style='width:31;'></td>
+     <td width="41" style='width:41;'></td>
+     <td width="31" style='width:31;'></td>
     </tr>
    <![endif]>
   </table>
