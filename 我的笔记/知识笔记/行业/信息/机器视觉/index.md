@@ -34,9 +34,9 @@ Markets and Markest
 Young Woo DSP
 
 # 现代制造
-1.ERP(资源管理系统):上层
-2.MES(制造执行系统):中层
-3.SCADA(生产控制系统):
+1.ERP(资源管理系统): 上层
+2.MES(制造执行系统): 中层
+3.SCADA(生产控制系统): 
 
 # 技术名词
 1.CMOS 影像制作技术的
