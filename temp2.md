@@ -319,7 +319,9 @@ function getTonsByML(p, ml, days, peoples){
   return p * ml * days * peoples / 1000000 / 10000
 }
 
-
+function getMoney(tons){
+  return tons * 1000000 / 500 * 2 / 1000000000
+}
 43亿吨
 
 
