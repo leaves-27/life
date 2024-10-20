@@ -313,7 +313,16 @@
 3.管理层做了什么努力？结果怎么样？
 
 
-12亿人每年都吃上酱油的话，需要多少了产量。
+中国人每年最多吃500万吨酱油。
+
+function getTonsByML(p, ml, days, peoples){
+  return p * ml * days * peoples / 1000000 / 10000
+}
+
+
+43亿吨
+
+
 
 
 
