@@ -26,5 +26,5 @@
 # 作者简介
 1964年，出生于德国。
 1996年，创办蒂尔资产管理公司，投资了Facebook和SpaceX。
-1998年，创办PayPal、Palantir
+1998年，创办PayPal、Palantir等公司。
 
